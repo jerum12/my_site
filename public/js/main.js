@@ -24,7 +24,7 @@ $(function () {
     // page loading
     $(document).ready(function () {
         anime({
-            targets: ".art-preloader .art-preloader-content",
+            targets: ".jerum-preloader .jerum-preloader-content",
             opacity: [0, 1],
             delay: 200,
             duration: 600,
@@ -32,13 +32,13 @@ $(function () {
             complete: function (anim) {},
         });
         anime({
-            targets: ".art-preloader",
+            targets: ".jerum-preloader",
             opacity: [1, 0],
             delay: 2200,
             duration: 400,
             easing: "linear",
             complete: function (anim) {
-                $(".art-preloader").css("display", "none");
+                $(".jerum-preloader").css("display", "none");
             },
         });
     });
@@ -62,7 +62,7 @@ $(function () {
 
     // counters
     anime({
-        targets: ".art-counter-frame",
+        targets: ".jerum-counter-frame",
         opacity: [0, 1],
         duration: 800,
         delay: 2300,
@@ -70,11 +70,11 @@ $(function () {
     });
 
     anime({
-        targets: ".art-counter",
+        targets: ".jerum-counter",
         delay: 1300,
         opacity: [1, 1],
         complete: function (anim) {
-            $(".art-counter").each(function () {
+            $(".jerum-counter").each(function () {
                 $(this)
                     .prop("Counter", 0)
                     .animate(
@@ -234,11 +234,11 @@ $(function () {
     // bar.animate(0.85);
 
     // Contact form
-    $(".art-input").keyup(function () {
+    $(".jerum-input").keyup(function () {
         if ($(this).val()) {
-            $(this).addClass("art-active");
+            $(this).addClass("jerum-active");
         } else {
-            $(this).removeClass("art-active");
+            $(this).removeClass("jerum-active");
         }
     });
 
@@ -253,11 +253,11 @@ $(function () {
             });
 
             tl.add({
-                targets: ".art-submit",
+                targets: ".jerum-submit",
                 opacity: 0,
                 scale: 0.5,
             }).add({
-                targets: ".art-success",
+                targets: ".jerum-success",
                 scale: 1,
                 height: "45px",
             });
@@ -266,26 +266,26 @@ $(function () {
     });
 
     // portfolio filter
-    $(".art-filter a").on("click", function () {
-        $(".art-filter .art-current").removeClass("art-current");
-        $(this).addClass("art-current");
+    $(".jerum-filter a").on("click", function () {
+        $(".jerum-filter .jerum-current").removeClass("jerum-current");
+        $(this).addClass("jerum-current");
 
         var selector = $(this).data("filter");
-        $(".art-grid").isotope({
+        $(".jerum-grid").isotope({
             filter: selector,
         });
         return false;
     });
 
     // masonry Grid
-    $(".art-grid").isotope({
+    $(".jerum-grid").isotope({
         filter: "*",
-        itemSelector: ".art-grid-item",
+        itemSelector: ".jerum-grid-item",
         transitionDuration: ".6s",
     });
 
     // slider testimonials
-    var swiper = new Swiper(".art-testimonial-slider", {
+    var swiper = new Swiper(".jerum-testimonial-slider", {
         slidesPerView: 3,
         spaceBetween: 30,
         speed: 1400,
@@ -296,8 +296,8 @@ $(function () {
             clickable: true,
         },
         navigation: {
-            nextEl: ".art-testi-swiper-next",
-            prevEl: ".art-testi-swiper-prev",
+            nextEl: ".jerum-testi-swiper-next",
+            prevEl: ".jerum-testi-swiper-prev",
         },
         breakpoints: {
             1500: {
@@ -313,7 +313,7 @@ $(function () {
     });
 
     // slider works
-    var swiper = new Swiper(".art-works-slider", {
+    var swiper = new Swiper(".jerum-works-slider", {
         slidesPerView: 3,
         spaceBetween: 30,
         speed: 1400,
@@ -326,8 +326,8 @@ $(function () {
             clickable: true,
         },
         navigation: {
-            nextEl: ".art-works-swiper-next",
-            prevEl: ".art-works-swiper-prev",
+            nextEl: ".jerum-works-swiper-next",
+            prevEl: ".jerum-works-swiper-prev",
         },
         breakpoints: {
             1500: {
@@ -343,7 +343,7 @@ $(function () {
     });
 
     // slider blog
-    var swiper = new Swiper(".art-blog-slider", {
+    var swiper = new Swiper(".jerum-blog-slider", {
         slidesPerView: 3,
         spaceBetween: 30,
         speed: 1400,
@@ -356,8 +356,8 @@ $(function () {
             clickable: true,
         },
         navigation: {
-            nextEl: ".art-blog-swiper-next",
-            prevEl: ".art-blog-swiper-prev",
+            nextEl: ".jerum-blog-swiper-next",
+            prevEl: ".jerum-blog-swiper-prev",
         },
         breakpoints: {
             1500: {
@@ -402,39 +402,39 @@ $(function () {
 
     $.fancybox.defaults.hash = false;
 
-    $(".current-menu-item a").clone().appendTo(".art-current-page");
+    $(".current-menu-item a").clone().appendTo(".jerum-current-page");
 
-    $(".art-map-overlay").on("click", function () {
-        $(this).addClass("art-active");
+    $(".jerum-map-overlay").on("click", function () {
+        $(this).addClass("jerum-active");
     });
 
-    $(".art-info-bar-btn").on("click", function () {
-        $(".art-info-bar").toggleClass("art-active");
-        $(".art-menu-bar-btn").toggleClass("art-disabled");
+    $(".jerum-info-bar-btn").on("click", function () {
+        $(".jerum-info-bar").toggleClass("jerum-active");
+        $(".jerum-menu-bar-btn").toggleClass("jerum-disabled");
     });
 
-    $(".art-menu-bar-btn").on("click", function () {
-        $(".art-menu-bar-btn , .art-menu-bar").toggleClass("art-active");
-        $(".art-info-bar-btn").toggleClass("art-disabled");
+    $(".jerum-menu-bar-btn").on("click", function () {
+        $(".jerum-menu-bar-btn , .jerum-menu-bar").toggleClass("jerum-active");
+        $(".jerum-info-bar-btn").toggleClass("jerum-disabled");
     });
 
-    $(".art-info-bar-btn , .art-menu-bar-btn").on("click", function () {
-        $(".art-content").toggleClass("art-active");
+    $(".jerum-info-bar-btn , .jerum-menu-bar-btn").on("click", function () {
+        $(".jerum-content").toggleClass("jerum-active");
     });
 
-    $(".art-curtain , .art-mobile-top-bar").on("click", function () {
+    $(".jerum-curtain , .jerum-mobile-top-bar").on("click", function () {
         $(
-            ".art-menu-bar-btn , .art-menu-bar , .art-info-bar , .art-content , .art-menu-bar-btn , .art-info-bar-btn"
-        ).removeClass("art-active , art-disabled");
+            ".jerum-menu-bar-btn , .jerum-menu-bar , .jerum-info-bar , .jerum-content , .jerum-menu-bar-btn , .jerum-info-bar-btn"
+        ).removeClass("jerum-active , jerum-disabled");
     });
 
     $(".menu-item").on("click", function () {
         if ($(this).hasClass("menu-item-has-children")) {
-            $(this).children(".sub-menu").toggleClass("art-active");
+            $(this).children(".sub-menu").toggleClass("jerum-active");
         } else {
             $(
-                ".art-menu-bar-btn , .art-menu-bar , .art-info-bar , .art-content , .art-menu-bar-btn , .art-info-bar-btn"
-            ).removeClass("art-active , art-disabled");
+                ".jerum-menu-bar-btn , .jerum-menu-bar , .jerum-info-bar , .jerum-content , .jerum-menu-bar-btn , .jerum-info-bar-btn"
+            ).removeClass("jerum-active , jerum-disabled");
         }
     });
 
@@ -463,11 +463,11 @@ $(function () {
                 });
 
                 tl.add({
-                    targets: ".art-submit",
+                    targets: ".jerum-submit",
                     opacity: 0,
                     scale: 0.5,
                 }).add({
-                    targets: ".art-success",
+                    targets: ".jerum-success",
                     scale: 1,
                     height: "45px",
                 });
@@ -476,32 +476,32 @@ $(function () {
         });
 
         // Masonry Grid
-        $(".art-grid").isotope({
+        $(".jerum-grid").isotope({
             filter: "*",
-            itemSelector: ".art-grid-item",
+            itemSelector: ".jerum-grid-item",
             transitionDuration: ".6s",
         });
 
-        $(".art-filter a").on("click", function () {
-            $(".art-filter .art-current").removeClass("art-current");
-            $(this).addClass("art-current");
+        $(".jerum-filter a").on("click", function () {
+            $(".jerum-filter .jerum-current").removeClass("jerum-current");
+            $(this).addClass("jerum-current");
 
             var selector = $(this).data("filter");
-            $(".art-grid").isotope({
+            $(".jerum-grid").isotope({
                 filter: selector,
             });
             return false;
         });
 
         anime({
-            targets: ".art-counter-frame",
+            targets: ".jerum-counter-frame",
             opacity: [0, 1],
             duration: 800,
             delay: 300,
             easing: "linear",
         });
 
-        $(".art-counter").each(function () {
+        $(".jerum-counter").each(function () {
             $(this)
                 .prop("Counter", 0)
                 .animate(
@@ -519,7 +519,7 @@ $(function () {
         });
 
         // slider testimonials
-        var swiper = new Swiper(".art-testimonial-slider", {
+        var swiper = new Swiper(".jerum-testimonial-slider", {
             slidesPerView: 3,
             spaceBetween: 30,
             speed: 1400,
@@ -530,8 +530,8 @@ $(function () {
                 clickable: true,
             },
             navigation: {
-                nextEl: ".art-testi-swiper-next",
-                prevEl: ".art-testi-swiper-prev",
+                nextEl: ".jerum-testi-swiper-next",
+                prevEl: ".jerum-testi-swiper-prev",
             },
             breakpoints: {
                 1500: {
@@ -550,7 +550,7 @@ $(function () {
         });
 
         // slider works
-        var swiper = new Swiper(".art-works-slider", {
+        var swiper = new Swiper(".jerum-works-slider", {
             slidesPerView: 3,
             spaceBetween: 30,
             speed: 1400,
@@ -563,8 +563,8 @@ $(function () {
                 clickable: true,
             },
             navigation: {
-                nextEl: ".art-works-swiper-next",
-                prevEl: ".art-works-swiper-prev",
+                nextEl: ".jerum-works-swiper-next",
+                prevEl: ".jerum-works-swiper-prev",
             },
             breakpoints: {
                 1500: {
@@ -580,7 +580,7 @@ $(function () {
         });
 
         // slider blog
-        var swiper = new Swiper(".art-blog-slider", {
+        var swiper = new Swiper(".jerum-blog-slider", {
             slidesPerView: 3,
             spaceBetween: 30,
             speed: 1400,
@@ -593,8 +593,8 @@ $(function () {
                 clickable: true,
             },
             navigation: {
-                nextEl: ".art-blog-swiper-next",
-                prevEl: ".art-blog-swiper-prev",
+                nextEl: ".jerum-blog-swiper-next",
+                prevEl: ".jerum-blog-swiper-prev",
             },
             breakpoints: {
                 1500: {
@@ -632,15 +632,15 @@ $(function () {
 
         $.fancybox.defaults.hash = false;
 
-        $(".current-menu-item a").clone().prependTo(".art-current-page");
+        $(".current-menu-item a").clone().prependTo(".jerum-current-page");
 
         $(".menu-item").on("click", function () {
             if ($(this).hasClass("menu-item-has-children")) {
-                $(this).children(".sub-menu").toggleClass("art-active");
+                $(this).children(".sub-menu").toggleClass("jerum-active");
             } else {
                 $(
-                    ".art-menu-bar-btn , .art-menu-bar , .art-info-bar , .art-content , .art-menu-bar-btn , .art-info-bar-btn"
-                ).removeClass("art-active , art-disabled");
+                    ".jerum-menu-bar-btn , .jerum-menu-bar , .jerum-info-bar , .jerum-content , .jerum-menu-bar-btn , .jerum-info-bar-btn"
+                ).removeClass("jerum-active , jerum-disabled");
             }
         });
     });

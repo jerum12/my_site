@@ -25,14 +25,14 @@
   </head>
   <body>
     <!-- app -->
-    <div class="art-app">
+    <div class="jerum-app">
       <!-- mobile top bar -->
-      <div class="art-mobile-top-bar"></div>
+      <div class="jerum-mobile-top-bar"></div>
 
       <!-- app wrapper -->
-      <div class="art-app-wrapper">
+      <div class="jerum-app-wrapper">
         <!-- app container end -->
-        <div class="art-app-container">
+        <div class="jerum-app-container">
           <!-- info bar -->
           @include('partials.infobar')
           <!-- info bar end -->

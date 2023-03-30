@@ -1,10 +1,10 @@
-<div class="art-info-bar">
+<div class="jerum-info-bar">
     <!-- menu bar frame -->
-    <div class="art-info-bar-frame">
+    <div class="jerum-info-bar-frame">
       <!-- info bar header -->
-      <div class="art-info-bar-header">
+      <div class="jerum-info-bar-header">
         <!-- info bar button -->
-        <div class="art-info-bar-btn">
+        <div class="jerum-info-bar-btn">
           <!-- icon -->
           <i class="fas fa-ellipsis-v"></i>
         </div>
@@ -13,37 +13,37 @@
       <!-- info bar header end -->
 
       <!-- info bar header -->
-      <div class="art-header">
+      <div class="jerum-header">
         <!-- avatar -->
-        <div class="art-avatar">
+        <div class="jerum-avatar">
           <a
             data-fancybox="avatar"
             data-no-swup
             href="img/grad.png"
-            class="art-avatar-curtain"
+            class="jerum-avatar-curtain"
           >
             <img src="img/grad.png" alt="avatar" />
             <i class="fas fa-expand"></i>
           </a>
           <!-- available -->
-          <div class="art-lamp-light">
-            <!-- add class 'art-not-available' if not available-->
-            <div class="art-available-lamp"></div>
+          <div class="jerum-lamp-light">
+            <!-- add class 'jerum-not-available' if not available-->
+            <div class="jerum-available-lamp"></div>
           </div>
         </div>
         <!-- avatar end -->
         <!-- name -->
-        <h5 class="art-name mb-10"><a href="index.html">Jerum Galang</a></h5>
+        <h5 class="jerum-name mb-10"><a href="index.html">Jerum Galang</a></h5>
         <!-- post -->
-        <div class="art-sm-text">System Engineer</div>
+        <div class="jerum-sm-text">System Engineer</div>
 
         <!-- links frame -->
-        <div class="art-links-frame p-15-15">
+        <div class="jerum-links-frame p-15-15">
           <!-- download cv button -->
           <a
             href="files/JPG_RESUME.docx"
             style="color: #000; position: relative"
-            class="art-link download-cv"
+            class="jerum-link download-cv"
             download
             data-no-swup
             >Download RESUME <i class="fas fa-download"></i
@@ -54,9 +54,9 @@
       <!-- info bar header end -->
 
       <!-- scroll frame -->
-      <div id="scrollbar2" class="art-scroll-frame">
+      <div id="scrollbar2" class="jerum-scroll-frame">
         <!-- info bar about -->
-        <div class="art-table art-table-info p-15-15">
+        <div class="jerum-table jerum-table-info p-15-15">
           <!-- about text -->
           <ul>
             <li>
@@ -77,30 +77,30 @@
         </div>
         <!-- info bar about end -->
 
-        <div class="art-ls-divider"></div>
+        <div class="jerum-ls-divider"></div>
 
          <!-- language skills -->
-         <div class="art-lang-skills p-30-15">
+         <div class="jerum-lang-skills p-30-15">
 
             <!-- skill -->
-            <div class="art-lang-skills-item">
-              <div id="java" class="art-cirkle-progress"></div>
+            <div class="jerum-lang-skills-item">
+              <div id="java" class="jerum-cirkle-progress"></div>
               <!-- title -->
               <h6>JAVA</h6>
             </div>
             <!-- skill end -->
 
             <!-- skill -->
-            <div class="art-lang-skills-item">
-              <div id="php" class="art-cirkle-progress"></div>
+            <div class="jerum-lang-skills-item">
+              <div id="php" class="jerum-cirkle-progress"></div>
               <!-- title -->
               <h6>PHP</h6>
             </div>
             <!-- skill end -->
 
             <!-- skill -->
-            <div class="art-lang-skills-item">
-              <div id="flutter" class="art-cirkle-progress"></div>
+            <div class="jerum-lang-skills-item">
+              <div id="flutter" class="jerum-cirkle-progress"></div>
               <!-- title -->
               <h6>Flutter</h6>
             </div>
@@ -110,18 +110,18 @@
           <!-- language skills end -->
 
         <!-- divider -->
-        <div class="art-ls-divider"></div>
+        <div class="jerum-ls-divider"></div>
 
         <!-- hard skills -->
-        <div class="art-hard-skills p-15-15">
+        <div class="jerum-hard-skills p-15-15">
           <!-- skill -->
-          <div class="art-hard-skills-item">
-            <div class="art-skill-heading">
+          <div class="jerum-hard-skills-item">
+            <div class="jerum-skill-heading">
               <!-- title -->
               <h6>ReactJS</h6>
             </div>
             <!-- progressbar frame -->
-            <div class="art-line-progress">
+            <div class="jerum-line-progress">
               <!-- progressbar -->
               <div id="reactjs"></div>
             </div>
@@ -130,13 +130,13 @@
           <!-- skill end -->
 
           <!-- skill -->
-          <div class="art-hard-skills-item">
-            <div class="art-skill-heading">
+          <div class="jerum-hard-skills-item">
+            <div class="jerum-skill-heading">
               <!-- title -->
               <h6>NodeJS</h6>
             </div>
             <!-- progressbar frame -->
-            <div class="art-line-progress">
+            <div class="jerum-line-progress">
               <!-- progressbar -->
               <div id="nodejs"></div>
             </div>
@@ -145,13 +145,13 @@
           <!-- skill end -->
 
           <!-- skill -->
-          <div class="art-hard-skills-item">
-            <div class="art-skill-heading">
+          <div class="jerum-hard-skills-item">
+            <div class="jerum-skill-heading">
               <!-- title -->
               <h6>Spring MVC</h6>
             </div>
             <!-- progressbar frame -->
-            <div class="art-line-progress">
+            <div class="jerum-line-progress">
               <!-- progressbar -->
               <div id="springmvc"></div>
             </div>
@@ -160,13 +160,13 @@
           <!-- skill end -->
 
           <!-- skill -->
-          <div class="art-hard-skills-item">
-            <div class="art-skill-heading">
+          <div class="jerum-hard-skills-item">
+            <div class="jerum-skill-heading">
               <!-- title -->
               <h6>Laravel</h6>
             </div>
             <!-- progressbar frame -->
-            <div class="art-line-progress">
+            <div class="jerum-line-progress">
               <!-- progressbar -->
               <div id="laravel"></div>
             </div>
@@ -178,10 +178,10 @@
         </div>
 
             <!-- divider -->
-            <div class="art-ls-divider"></div>
+            <div class="jerum-ls-divider"></div>
 
             <!-- knowledge list -->
-            <ul class="art-knowledge-list p-15-0">
+            <ul class="jerum-knowledge-list p-15-0">
             <li>HTML, CSS, JavaScript</li>
               <li>MSSQL, MySQL, PostgreSQL</li>
               <li>Tomcat, IBM Websphere, XAMP</li>
@@ -199,7 +199,7 @@
       <!-- scroll frame end -->
 
       <!-- sidebar social -->
-      <div class="art-ls-social">
+      <div class="jerum-ls-social">
         <!-- social link -->
         <a data-no-swup href="mailto:jerumpgalang@gmail.com" target="_blank"><i class="fab fa-google-plus-square"></i></a>
         <!-- social link -->

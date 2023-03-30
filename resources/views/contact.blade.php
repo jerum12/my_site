@@ -6,14 +6,14 @@ Contact Me - Jerum Galang
 
 
 @section("content")
-<div class="art-content">
+<div class="jerum-content">
   <!-- curtain -->
-  <div class="art-curtain"></div>
+  <div class="jerum-curtain"></div>
 
   <!-- top background -->
-  <div class="art-top-bg" style="background-image: url(img/bg.jpg)">
+  <div class="jerum-top-bg" style="background-image: url(img/bg.jpg)">
     <!-- overlay -->
-    <div class="art-top-bg-overlay"></div>
+    <div class="jerum-top-bg-overlay"></div>
     <!-- overlay end -->
   </div>
   <!-- top background end -->
@@ -21,7 +21,7 @@ Contact Me - Jerum Galang
   <!-- swup container -->
   <div class="transition-fade" id="swup">
     <!-- scroll frame -->
-    <div id="scrollbar" class="art-scroll-frame">
+    <div id="scrollbar" class="jerum-scroll-frame">
       <!-- container -->
       <div class="container-fluid">
         <!-- row -->
@@ -29,9 +29,9 @@ Contact Me - Jerum Galang
           <!-- col -->
           <div class="col-lg-12">
             <!-- section title -->
-            <div class="art-section-title">
+            <div class="jerum-section-title">
               <!-- title frame -->
-              <div class="art-title-frame">
+              <div class="jerum-title-frame">
                 <!-- title -->
                 <h3>Contact Info</h3>
               </div>
@@ -43,8 +43,8 @@ Contact Me - Jerum Galang
           <!-- col -->
           <div class="col-12 col-xl-6">
             <!-- contact card -->
-            <div class="art-a art-card">
-              <div class="art-table p-15-15">
+            <div class="jerum-a jerum-card">
+              <div class="jerum-table p-15-15">
                 <ul>
                   <li>
                     <h6>#:</h6>
@@ -79,8 +79,8 @@ Contact Me - Jerum Galang
           <!-- col -->
           <div class="col-12 col-xl-6">
             <!-- contact card -->
-            <div class="art-a art-card">
-              <div class="art-table p-15-15">
+            <div class="jerum-a jerum-card">
+              <div class="jerum-table p-15-15">
                 <ul>
                   <li>
                     <h6>Email:</h6>
@@ -124,9 +124,9 @@ Contact Me - Jerum Galang
           <!-- col -->
           <div class="col-lg-12">
             <!-- section title -->
-            <div class="art-section-title">
+            <div class="jerum-section-title">
               <!-- title frame -->
-              <div class="art-title-frame">
+              <div class="jerum-title-frame">
                 <!-- title -->
                 <h3>Get in touch</h3>
               </div>
@@ -141,19 +141,19 @@ Contact Me - Jerum Galang
             @endif
 
             <!-- contact form frame -->
-            <div class="art-a art-card">
+            <div class="jerum-a jerum-card">
 
-              <form method="POST" action="{{ route('contact.store') }}" id="contactUSForm"  class="art-contact-form">
+              <form method="POST" action="{{ route('contact.store') }}" id="contactUSForm"  class="jerum-contact-form">
                 {{ csrf_field() }}
                   
                 <div class="row">
                     <div class="col-md-12">
-                      <div class="art-form-field">
+                      <div class="jerum-form-field">
                         <!-- name input -->
                         <input
                           id="name"
                           name="name"
-                          class="art-input"
+                          class="jerum-input"
                           type="text"
                           placeholder="Name"
                           required
@@ -169,12 +169,12 @@ Contact Me - Jerum Galang
                     </div>
                     <div class="col-md-12">
 
-                      <div class="art-form-field">
+                      <div class="jerum-form-field">
                         <!-- email input -->
                         <input
                           id="email"
                           name="email"
-                          class="art-input"
+                          class="jerum-input"
                           type="email"
                           placeholder="Email"
                           required
@@ -190,12 +190,12 @@ Contact Me - Jerum Galang
              
                     </div>
                     <div class="col-md-12">
-                      <div class="art-form-field">
+                      <div class="jerum-form-field">
                         <!-- message textarea -->
                         <textarea
                           id="message"
                           name="message"
-                          class="art-input"
+                          class="jerum-input"
                           placeholder="Message"
                           required
                         >{{ old('message') }}</textarea>
@@ -208,12 +208,12 @@ Contact Me - Jerum Galang
                       
                     </div>
                 </div>
-                <div class="art-submit-frame">
-                  <button class="art-btn art-btn-md art-submit" type="submit">
+                <div class="jerum-submit-frame">
+                  <button class="jerum-btn jerum-btn-md jerum-submit" type="submit">
                     <span>Send message</span>
                   </button>
                   <!-- success -->
-                  <div class="art-success">Success <i class="fas fa-check"></i></div>
+                  <div class="jerum-success">Success <i class="fas fa-check"></i></div>
                 </div>
 
       
@@ -234,7 +234,7 @@ Contact Me - Jerum Galang
         <!-- footer -->
         <footer>
           <!-- copyright -->
-          <div class="art-copy">© 2023 Jerum Galang</div>
+          <div class="jerum-copy">© 2023 Jerum Galang</div>
           <!-- author ( Please! Do not delete it. You are awesome! :) -->
           <!-- <div>
             Template author:&#160;

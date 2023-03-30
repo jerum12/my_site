@@ -143,18 +143,18 @@ h3 {
 
 /* ----- text config ----- */
 /* line 55, ../scss/_common.scss */
-.art-sm-text {
+.jerum-sm-text {
     font-size: 10px;
     color: #adfaaa;
 }
 
 /* line 59, ../scss/_common.scss */
-.art-lg-text {
+.jerum-lg-text {
     font-size: 16px;
 }
 
 /* line 63, ../scss/_common.scss */
-.art-white {
+.jerum-white {
     color: #fafafc;
 }
 
@@ -168,31 +168,31 @@ h3 {
 
 /* ----- buttons frame ----- */
 /* line 74, ../scss/_common.scss */
-.art-buttons-frame {
+.jerum-buttons-frame {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.art-buttons-frame a {
+.jerum-buttons-frame a {
     margin-right: 15px;
 }
 
 /* ----- suptitle ----- */
 /* line 79, ../scss/_common.scss */
-.art-el-suptitle {
+.jerum-el-suptitle {
     margin-top: 5px;
     color: #4eff5c;
     font-style: italic;
     font-size: 11px;
 }
 
-.art-el-message {
+.jerum-el-message {
     color: #bbc1ba;
 }
 
 /* ----- divider ----- */
 /* line 86, ../scss/_common.scss */
-.art-ls-divider {
+.jerum-ls-divider {
     background: #646466;
     width: 100%;
     height: 1px;
@@ -201,7 +201,7 @@ h3 {
 
 /* ----- image defaults ----- */
 /* line 93, ../scss/_common.scss */
-.art-img-default {
+.jerum-img-default {
     width: 100%;
     -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
     box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
@@ -225,17 +225,17 @@ a:focus {
 
 /* ----- table ----- */
 /* line 113, ../scss/_common.scss */
-.art-table {
+.jerum-table {
     color: #e2ffe2;
 }
 
 /* line 116, ../scss/_common.scss */
-.art-table ul {
+.jerum-table ul {
     padding: 0;
     margin: 0;
 }
 /* line 120, ../scss/_common.scss */
-.art-table ul li {
+.jerum-table ul li {
     list-style-type: none;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -246,21 +246,21 @@ a:focus {
     margin-bottom: 5px;
 }
 
-.art-table-info ul li span {
+.jerum-table-info ul li span {
     line-height: 1;
     font-size: 12px !important;
 }
-.art-table ul li a {
+.jerum-table ul li a {
     text-decoration: underline;
     font-size: 15px;
 }
 
-.art-table ul li span {
+.jerum-table ul li span {
     font-size: 15px;
 }
 
 /* line 126, ../scss/_common.scss */
-.art-table ul li:last-child {
+.jerum-table ul li:last-child {
     margin-bottom: 0;
 }
 
@@ -309,18 +309,18 @@ blockquote:after {
 
 /* ----- list ----- */
 /* line 172, ../scss/_common.scss */
-.art-custom-list {
+.jerum-custom-list {
     padding-left: 25px;
 }
 /* line 175, ../scss/_common.scss */
-.art-custom-list li {
+.jerum-custom-list li {
     position: relative;
     list-style-type: none;
     color: #fafafc;
     margin-bottom: 5px;
 }
 /* line 181, ../scss/_common.scss */
-.art-custom-list li:before {
+.jerum-custom-list li:before {
     content: "";
     position: absolute;
     top: 4px;
@@ -340,7 +340,7 @@ link
 
 ------------------------------ */
 /* line 200, ../scss/_common.scss */
-.art-link {
+.jerum-link {
     position: absolute;
     text-transform: uppercase;
     font-size: 10px;
@@ -357,7 +357,7 @@ link
     padding: 5px;
 }
 /* line 212, ../scss/_common.scss */
-.art-link:hover {
+.jerum-link:hover {
     color: #fafafc;
     text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
 }
@@ -367,33 +367,33 @@ link
     text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
 }
 /* line 217, ../scss/_common.scss */
-.art-link.art-white-link {
+.jerum-link.jerum-white-link {
     color: #fafafc;
 }
 /* line 220, ../scss/_common.scss */
-.art-link.art-white-link:hover {
+.jerum-link.jerum-white-link:hover {
     color: #fafafc;
     text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
     -webkit-transform: translateX(5px);
     transform: translateX(5px);
 }
 /* line 227, ../scss/_common.scss */
-.art-link.art-color-link {
+.jerum-link.jerum-color-link {
     color: #000;
 }
 /* line 230, ../scss/_common.scss */
-.art-link.art-color-link:hover {
+.jerum-link.jerum-color-link:hover {
     color: #9bff88;
     text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
     -webkit-transform: translateX(5px);
     transform: translateX(5px);
 }
 /* line 237, ../scss/_common.scss */
-/* .art-link.art-w-chevron {
+/* .jerum-link.jerum-w-chevron {
   padding-right: 10px;
 } */
 /* line 239, ../scss/_common.scss */
-/* .art-link.art-w-chevron:after {
+/* .jerum-link.jerum-w-chevron:after {
   position: absolute;
   font-family: 'Font Awesome 5 free';
   content: '\f054';
@@ -411,39 +411,39 @@ link
   transition: 0.4s ease-in-out;
 } */
 /* line 255, ../scss/_common.scss */
-.art-link.art-w-chevron:hover {
+.jerum-link.jerum-w-chevron:hover {
     -webkit-transform: translateX(0);
     transform: translateX(0);
 }
 /* line 258, ../scss/_common.scss */
-.art-link.art-w-chevron:hover:after {
+.jerum-link.jerum-w-chevron:hover:after {
     -webkit-transform: translateX(10px);
     transform: translateX(10px);
 }
 /* line 264, ../scss/_common.scss */
-/* .art-link:last-child {
+/* .jerum-link:last-child {
   margin-bottom: 0;
   margin-right: 0;
 } */
 /* line 269, ../scss/_common.scss */
-.art-link i {
+.jerum-link i {
     font-size: 9px;
     margin-left: 3px;
 }
 /* line 274, ../scss/_common.scss */
-.art-link.art-left-link {
+.jerum-link.jerum-left-link {
     padding-left: 10px;
     padding-right: 0;
 }
 /* line 279, ../scss/_common.scss */
-.art-link.art-left-link.art-w-chevron:after {
+.jerum-link.jerum-left-link.jerum-w-chevron:after {
     content: "\f053";
     left: 0;
     -webkit-transform: translateX(0);
     transform: translateX(0);
 }
 /* line 286, ../scss/_common.scss */
-.art-link.art-left-link.art-w-chevron:hover:after {
+.jerum-link.jerum-left-link.jerum-w-chevron:hover:after {
     -webkit-transform: translateX(-5px);
     transform: translateX(-5px);
 }
@@ -454,7 +454,7 @@ button
 
 ------------------------------ */
 /* line 298, ../scss/_common.scss */
-.art-btn {
+.jerum-btn {
     text-transform: uppercase;
     -webkit-box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
     box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
@@ -475,26 +475,26 @@ button
     transition: 0.4s ease-in-out;
 }
 /* line 311, ../scss/_common.scss */
-.art-btn span {
+.jerum-btn span {
     -ms-flex-item-align: center;
     align-self: center;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
 }
 /* line 316, ../scss/_common.scss */
-.art-btn.art-btn-md {
+.jerum-btn.jerum-btn-md {
     height: 45px;
     font-size: 11px;
     padding: 0 35px;
 }
 /* line 322, ../scss/_common.scss */
-.art-btn.art-btn-sm {
+.jerum-btn.jerum-btn-sm {
     height: 40px;
     font-size: 11px;
     padding: 0 30px;
 }
 /* line 328, ../scss/_common.scss */
-.art-btn:hover {
+.jerum-btn:hover {
     -webkit-transform: translateY(-2px);
     transform: translateY(-2px);
     color: #1e1e28;
@@ -594,7 +594,7 @@ app marcup
 ------------------------------ */
 /* ----- top background ----- */
 /* line 7, ../scss/_markup.scss */
-.art-top-bg {
+.jerum-top-bg {
     overflow: hidden;
     position: absolute;
     width: 100%;
@@ -604,7 +604,7 @@ app marcup
     background-size: cover;
 }
 /* line 16, ../scss/_markup.scss */
-.art-top-bg .art-top-bg-overlay {
+.jerum-top-bg .jerum-top-bg-overlay {
     position: relative;
     height: 100%;
     width: 100%;
@@ -635,7 +635,7 @@ app marcup
 
 /* ----- preloader ----- */
 /* line 24, ../scss/_markup.scss */
-.art-preloader {
+.jerum-preloader {
     margin: 15px;
     position: absolute;
     top: 0;
@@ -655,17 +655,20 @@ app marcup
     justify-content: center;
 }
 /* line 37, ../scss/_markup.scss */
-.art-preloader .art-preloader-content {
+.jerum-preloader .jerum-preloader-content {
     margin-bottom: 15px;
     text-align: center;
 }
 /* line 41, ../scss/_markup.scss */
-.art-preloader .art-preloader-content .art-preloader-load {
+.jerum-preloader .jerum-preloader-content .jerum-preloader-load {
     margin-top: 5px;
     width: 200px;
 }
 /* line 45, ../scss/_markup.scss */
-.art-preloader .art-preloader-content .art-preloader-load .progressbar-text {
+.jerum-preloader
+    .jerum-preloader-content
+    .jerum-preloader-load
+    .progressbar-text {
     position: relative;
     font-size: 14px;
     font-weight: 400 !important;
@@ -675,17 +678,17 @@ app marcup
 }
 
 /* line 58, ../scss/_markup.scss */
-.art-preloader-load path:first-child {
+.jerum-preloader-load path:first-child {
     stroke: #191923;
 }
 /* line 61, ../scss/_markup.scss */
-.art-preloader-load path:last-child {
+.jerum-preloader-load path:last-child {
     stroke: #9bff88;
 }
 
 /* ----- scroll frame ----- */
 /* line 67, ../scss/_markup.scss */
-.art-scroll-frame {
+.jerum-scroll-frame {
     width: 100%;
     height: calc(100vh - 30px);
 }
@@ -698,7 +701,7 @@ app marcup
 
 /* ----- app ----- */
 /* line 78, ../scss/_markup.scss */
-.art-app {
+.jerum-app {
     padding: 15px;
     background: #191923;
     width: 100vw;
@@ -708,15 +711,15 @@ app marcup
     /* ----- mobile top bar ----- */
 }
 /* line 86, ../scss/_markup.scss */
-.art-app * {
+.jerum-app * {
     scrollbar-width: none;
 }
 /* line 90, ../scss/_markup.scss */
-.art-app ::-webkit-scrollbar {
+.jerum-app ::-webkit-scrollbar {
     display: none;
 }
 /* line 94, ../scss/_markup.scss */
-.art-app .art-mobile-top-bar {
+.jerum-app .jerum-mobile-top-bar {
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -734,7 +737,7 @@ app marcup
     align-items: center;
 }
 /* line 107, ../scss/_markup.scss */
-.art-app .art-app-wrapper {
+.jerum-app .jerum-app-wrapper {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
@@ -748,7 +751,7 @@ app marcup
     box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
 }
 /* line 119, ../scss/_markup.scss */
-.art-app .art-app-wrapper .art-app-container {
+.jerum-app .jerum-app-wrapper .jerum-app-container {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -760,7 +763,7 @@ app marcup
     /* ----- menu bar ----- */
 }
 /* line 124, ../scss/_markup.scss */
-.art-app .art-app-wrapper .art-app-container .art-info-bar {
+.jerum-app .jerum-app-wrapper .jerum-app-container .jerum-info-bar {
     background: #20202a;
     width: 290px;
     min-width: 290px;
@@ -773,16 +776,20 @@ app marcup
     transition: 0.55s ease-in-out;
 }
 /* line 134, ../scss/_markup.scss */
-.art-app .art-app-wrapper .art-app-container .art-info-bar .art-info-bar-frame {
+.jerum-app
+    .jerum-app-wrapper
+    .jerum-app-container
+    .jerum-info-bar
+    .jerum-info-bar-frame {
     padding: 0 15px;
 }
 /* line 137, ../scss/_markup.scss */
-.art-app
-    .art-app-wrapper
-    .art-app-container
-    .art-info-bar
-    .art-info-bar-frame
-    .art-info-bar-header {
+.jerum-app
+    .jerum-app-wrapper
+    .jerum-app-container
+    .jerum-info-bar
+    .jerum-info-bar-frame
+    .jerum-info-bar-header {
     width: 100%;
     height: 70px;
     -webkit-box-pack: start;
@@ -798,41 +805,41 @@ app marcup
     display: none;
 }
 /* line 148, ../scss/_markup.scss */
-.art-app
-    .art-app-wrapper
-    .art-app-container
-    .art-info-bar
-    .art-info-bar-frame
-    .art-info-bar-header
-    .art-info-bar-btn {
+.jerum-app
+    .jerum-app-wrapper
+    .jerum-app-container
+    .jerum-info-bar
+    .jerum-info-bar-frame
+    .jerum-info-bar-header
+    .jerum-info-bar-btn {
     margin-left: auto;
     pointer-events: all;
     font-size: 14px;
     padding: 30px;
 }
 /* line 154, ../scss/_markup.scss */
-.art-app
-    .art-app-wrapper
-    .art-app-container
-    .art-info-bar
-    .art-info-bar-frame
-    .art-info-bar-header
-    .art-info-bar-btn.art-disabled {
+.jerum-app
+    .jerum-app-wrapper
+    .jerum-app-container
+    .jerum-info-bar
+    .jerum-info-bar-frame
+    .jerum-info-bar-header
+    .jerum-info-bar-btn.jerum-disabled {
     opacity: 0;
     pointer-events: none;
 }
 /* line 162, ../scss/_markup.scss */
-.art-app
-    .art-app-wrapper
-    .art-app-container
-    .art-info-bar
-    .art-info-bar-frame
-    .art-scroll-frame
+.jerum-app
+    .jerum-app-wrapper
+    .jerum-app-container
+    .jerum-info-bar
+    .jerum-info-bar-frame
+    .jerum-scroll-frame
     .scroll-content {
     padding: 240px 0 50px;
 }
 /* line 169, ../scss/_markup.scss */
-.art-app .art-app-wrapper .art-app-container .art-content {
+.jerum-app .jerum-app-wrapper .jerum-app-container .jerum-content {
     position: relative;
     overflow: hidden;
     width: 100vw;
@@ -842,7 +849,11 @@ app marcup
     transition: 0.55s ease-in-out;
 }
 /* line 177, ../scss/_markup.scss */
-.art-app .art-app-wrapper .art-app-container .art-content .art-curtain {
+.jerum-app
+    .jerum-app-wrapper
+    .jerum-app-container
+    .jerum-content
+    .jerum-curtain {
     background: rgba(30, 30, 40, 0.88);
     position: absolute;
     z-index: 9;
@@ -855,21 +866,21 @@ app marcup
     transition: 0.55s ease-in-out;
 }
 /* line 189, ../scss/_markup.scss */
-.art-app .art-app-wrapper .art-app-container .art-content.art-active {
+.jerum-app .jerum-app-wrapper .jerum-app-container .jerum-content.jerum-active {
     -webkit-transform: translateX(-150px);
     transform: translateX(-150px);
 }
 /* line 192, ../scss/_markup.scss */
-.art-app
-    .art-app-wrapper
-    .art-app-container
-    .art-content.art-active
-    .art-curtain {
+.jerum-app
+    .jerum-app-wrapper
+    .jerum-app-container
+    .jerum-content.jerum-active
+    .jerum-curtain {
     pointer-events: all;
     opacity: 0.7;
 }
 /* line 199, ../scss/_markup.scss */
-.art-app .art-app-wrapper .art-app-container .art-menu-bar {
+.jerum-app .jerum-app-wrapper .jerum-app-container .jerum-menu-bar {
     background: #20202a;
     width: 230px;
     height: calc(100vh - 30px);
@@ -884,16 +895,20 @@ app marcup
     transition: 0.55s ease-in-out;
 }
 /* line 211, ../scss/_markup.scss */
-.art-app .art-app-wrapper .art-app-container .art-menu-bar .art-menu-bar-frame {
+.jerum-app
+    .jerum-app-wrapper
+    .jerum-app-container
+    .jerum-menu-bar
+    .jerum-menu-bar-frame {
     position: relative;
 }
 /* line 214, ../scss/_markup.scss */
-.art-app
-    .art-app-wrapper
-    .art-app-container
-    .art-menu-bar
-    .art-menu-bar-frame
-    .art-menu-bar-header {
+.jerum-app
+    .jerum-app-wrapper
+    .jerum-app-container
+    .jerum-menu-bar
+    .jerum-menu-bar-frame
+    .jerum-menu-bar-header {
     width: 100%;
     height: 70px;
     display: -webkit-box;
@@ -918,28 +933,31 @@ app marcup
     );
 }
 /* line 227, ../scss/_markup.scss */
-.art-app
-    .art-app-wrapper
-    .art-app-container
-    .art-menu-bar
-    .art-menu-bar-frame
-    .art-menu-bar-header
-    .art-menu-bar-btn {
+.jerum-app
+    .jerum-app-wrapper
+    .jerum-app-container
+    .jerum-menu-bar
+    .jerum-menu-bar-frame
+    .jerum-menu-bar-header
+    .jerum-menu-bar-btn {
     pointer-events: all;
 }
 /* line 230, ../scss/_markup.scss */
-.art-app
-    .art-app-wrapper
-    .art-app-container
-    .art-menu-bar
-    .art-menu-bar-frame
-    .art-menu-bar-header
-    .art-menu-bar-btn.art-disabled {
+.jerum-app
+    .jerum-app-wrapper
+    .jerum-app-container
+    .jerum-menu-bar
+    .jerum-menu-bar-frame
+    .jerum-menu-bar-header
+    .jerum-menu-bar-btn.jerum-disabled {
     opacity: 0;
     pointer-events: none;
 }
 /* line 238, ../scss/_markup.scss */
-.art-app .art-app-wrapper .art-app-container .art-menu-bar.art-active {
+.jerum-app
+    .jerum-app-wrapper
+    .jerum-app-container
+    .jerum-menu-bar.jerum-active {
     -webkit-transform: translateX(-150px);
     transform: translateX(-150px);
 }
@@ -959,7 +977,7 @@ app marcup (after 920px)
 
     /* ----- preloader ----- */
     /* line 257, ../scss/_markup.scss */
-    .art-preloader {
+    .jerum-preloader {
         margin: 0;
         width: 100vw;
         height: 100vh;
@@ -967,81 +985,84 @@ app marcup (after 920px)
 
     /* ----- scroll frame ----- */
     /* line 263, ../scss/_markup.scss */
-    .art-scroll-frame {
+    .jerum-scroll-frame {
         height: 100vh;
     }
 
     /* line 267, ../scss/_markup.scss */
-    .art-app {
+    .jerum-app {
         padding: 0;
         /* ----- mobile top bar ----- */
     }
     /* line 270, ../scss/_markup.scss */
-    .art-app .art-mobile-top-bar {
+    .jerum-app .jerum-mobile-top-bar {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
     }
     /* line 274, ../scss/_markup.scss */
-    .art-app .art-app-wrapper {
+    .jerum-app .jerum-app-wrapper {
         border-radius: 0;
         height: 100vh;
     }
     /* line 278, ../scss/_markup.scss */
-    .art-app .art-app-wrapper .art-app-container {
+    .jerum-app .jerum-app-wrapper .jerum-app-container {
         width: 100%;
         /* ----- info bar ----- */
         /* ----- content ----- */
         /* ----- menu bar ----- */
     }
     /* line 281, ../scss/_markup.scss */
-    .art-app .art-app-wrapper .art-app-container .art-info-bar {
+    .jerum-app .jerum-app-wrapper .jerum-app-container .jerum-info-bar {
         position: absolute;
         left: -290px;
         width: 290px;
         height: 100vh;
     }
     /* line 287, ../scss/_markup.scss */
-    .art-app .art-app-wrapper .art-app-container .art-info-bar.art-active {
+    .jerum-app
+        .jerum-app-wrapper
+        .jerum-app-container
+        .jerum-info-bar.jerum-active {
         -webkit-transform: translateX(290px);
         transform: translateX(290px);
     }
     /* line 292, ../scss/_markup.scss */
-    .art-app
-        .art-app-wrapper
-        .art-app-container
-        .art-info-bar
-        .art-info-bar-frame
-        .art-info-bar-header {
+    .jerum-app
+        .jerum-app-wrapper
+        .jerum-app-container
+        .jerum-info-bar
+        .jerum-info-bar-frame
+        .jerum-info-bar-header {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
     }
     /* line 295, ../scss/_markup.scss */
-    .art-app
-        .art-app-wrapper
-        .art-app-container
-        .art-info-bar
-        .art-info-bar-frame
-        .art-info-bar-header
-        .art-info-bar-btn {
+    .jerum-app
+        .jerum-app-wrapper
+        .jerum-app-container
+        .jerum-info-bar
+        .jerum-info-bar-frame
+        .jerum-info-bar-header
+        .jerum-info-bar-btn {
         -webkit-transform: translateX(70px);
         transform: translateX(70px);
         -webkit-transition: 0.4s ease-in-out;
         transition: 0.4s ease-in-out;
     }
     /* line 304, ../scss/_markup.scss */
-    .art-app
-        .art-app-wrapper
-        .art-app-container
-        .art-info-bar.art-active
-        .art-info-bar-frame
-        .art-info-bar-btn {
+    .jerum-app
+        .jerum-app-wrapper
+        .jerum-app-container
+        .jerum-info-bar.jerum-active
+        .jerum-info-bar-frame
+        .jerum-info-bar-btn {
         -webkit-transform: translateX(0);
         transform: translateX(0);
     }
     /* line 311, ../scss/_markup.scss */
-    .art-app .art-app-wrapper .art-app-container .art-content {
+    .jerum-app .jerum-app-wrapper .jerum-app-container .jerum-content {
         position: relative;
         width: 100vw;
         height: 100vh;
@@ -1049,56 +1070,62 @@ app marcup (after 920px)
         padding-top: 70px;
     }
     /* line 318, ../scss/_markup.scss */
-    .art-app
-        .art-app-wrapper
-        .art-app-container
-        .art-content
-        .art-scroll-frame {
+    .jerum-app
+        .jerum-app-wrapper
+        .jerum-app-container
+        .jerum-content
+        .jerum-scroll-frame {
         height: calc(100vh - 70px);
     }
     /* line 322, ../scss/_markup.scss */
-    .art-app .art-app-wrapper .art-app-container .art-content.art-active {
+    .jerum-app
+        .jerum-app-wrapper
+        .jerum-app-container
+        .jerum-content.jerum-active {
         -webkit-transform: none;
         transform: none;
     }
     /* line 325, ../scss/_markup.scss */
-    .art-app
-        .art-app-wrapper
-        .art-app-container
-        .art-content.art-active
-        .art-curtain {
+    .jerum-app
+        .jerum-app-wrapper
+        .jerum-app-container
+        .jerum-content.jerum-active
+        .jerum-curtain {
         pointer-events: all;
         opacity: 1;
     }
     /* line 332, ../scss/_markup.scss */
-    .art-app .art-app-wrapper .art-app-container .art-menu-bar {
+    .jerum-app .jerum-app-wrapper .jerum-app-container .jerum-menu-bar {
         position: absolute;
         right: -230px;
         width: 230px;
         height: 100vh;
     }
     /* line 338, ../scss/_markup.scss */
-    .art-app .art-app-wrapper .art-app-container .art-menu-bar.art-active {
+    .jerum-app
+        .jerum-app-wrapper
+        .jerum-app-container
+        .jerum-menu-bar.jerum-active {
         -webkit-transform: translateX(-230px);
         transform: translateX(-230px);
     }
     /* line 342, ../scss/_markup.scss */
-    .art-app
-        .art-app-wrapper
-        .art-app-container
-        .art-menu-bar
-        .art-menu-bar-btn {
+    .jerum-app
+        .jerum-app-wrapper
+        .jerum-app-container
+        .jerum-menu-bar
+        .jerum-menu-bar-btn {
         -webkit-transform: translateX(-80px);
         transform: translateX(-80px);
         -webkit-transition: 0.4s ease-in-out;
         transition: 0.4s ease-in-out;
     }
     /* line 348, ../scss/_markup.scss */
-    .art-app
-        .art-app-wrapper
-        .art-app-container
-        .art-menu-bar.art-active
-        .art-menu-bar-btn {
+    .jerum-app
+        .jerum-app-wrapper
+        .jerum-app-container
+        .jerum-menu-bar.jerum-active
+        .jerum-menu-bar-btn {
         -webkit-transform: translateX(0);
         transform: translateX(0);
     }
@@ -1110,11 +1137,11 @@ app marcup (after 290px)
 ------------------------------ */
 @media (max-width: 290px) {
     /* line 363, ../scss/_markup.scss */
-    .art-app {
+    .jerum-app {
         /* ----- info bar ----- */
     }
     /* line 365, ../scss/_markup.scss */
-    .art-app .art-info-bar {
+    .jerum-app .jerum-info-bar {
         width: 100vw;
     }
 }
@@ -1125,16 +1152,16 @@ app marcup (after 230px)
 ------------------------------ */
 @media (max-width: 230px) {
     /* line 376, ../scss/_markup.scss */
-    .art-app {
+    .jerum-app {
         /* ----- menu bar ----- */
     }
     /* line 378, ../scss/_markup.scss */
-    .art-app .art-menu-bar {
+    .jerum-app .jerum-menu-bar {
         width: 100vw;
     }
 }
 /* line 387, ../scss/_markup.scss */
-.art-app-onepage .art-app-wrapper .art-app-container .art-content {
+.jerum-app-onepage .jerum-app-wrapper .jerum-app-container .jerum-content {
     padding-right: 0;
 }
 
@@ -1144,7 +1171,7 @@ info bar
 
 ------------------------------ */
 /* line 7, ../scss/_info-bar.scss */
-.art-info-bar {
+.jerum-info-bar {
     padding: 0 15px;
     /* ----- header ----- */
     /* ----- name ----- */
@@ -1155,7 +1182,7 @@ info bar
     /* ----- social links ----- */
 }
 /* line 10, ../scss/_info-bar.scss */
-.art-info-bar .art-header {
+.jerum-info-bar .jerum-header {
     position: absolute;
     left: 0;
     top: 0;
@@ -1173,7 +1200,7 @@ info bar
     box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
 }
 /* line 22, ../scss/_info-bar.scss */
-.art-info-bar .art-header .art-avatar {
+.jerum-info-bar .jerum-header .jerum-avatar {
     width: 90px;
     height: 90px;
     margin: 0 auto;
@@ -1182,7 +1209,7 @@ info bar
     margin-bottom: 15px;
 }
 /* line 30, ../scss/_info-bar.scss */
-.art-info-bar .art-header .art-avatar .art-avatar-curtain {
+.jerum-info-bar .jerum-header .jerum-avatar .jerum-avatar-curtain {
     position: relative;
     width: 100%;
     height: 100%;
@@ -1199,7 +1226,7 @@ info bar
     z-index: 0;
 }
 /* line 41, ../scss/_info-bar.scss */
-.art-info-bar .art-header .art-avatar .art-avatar-curtain i {
+.jerum-info-bar .jerum-header .jerum-avatar .jerum-avatar-curtain i {
     background: linear-gradient(
         159deg,
         rgba(45, 45, 58, 0.88) 0%,
@@ -1221,7 +1248,7 @@ info bar
     transition: 0.4s ease-in-out;
 }
 /* line 57, ../scss/_info-bar.scss */
-.art-info-bar .art-header .art-avatar .art-avatar-curtain img {
+.jerum-info-bar .jerum-header .jerum-avatar .jerum-avatar-curtain img {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1231,28 +1258,32 @@ info bar
     z-index: 0;
 }
 /* line 66, ../scss/_info-bar.scss */
-.art-info-bar .art-header .art-avatar .art-avatar-curtain:hover {
+.jerum-info-bar .jerum-header .jerum-avatar .jerum-avatar-curtain:hover {
     opacity: 1;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
     outline: inherit;
 }
 /* line 71, ../scss/_info-bar.scss */
-.art-info-bar .art-header .art-avatar .art-avatar-curtain:hover i {
+.jerum-info-bar .jerum-header .jerum-avatar .jerum-avatar-curtain:hover i {
     opacity: 0.7;
 }
 /* line 74, ../scss/_info-bar.scss */
-.art-info-bar .art-header .art-avatar .art-avatar-curtain:hover i:hover {
+.jerum-info-bar
+    .jerum-header
+    .jerum-avatar
+    .jerum-avatar-curtain:hover
+    i:hover {
     opacity: 1;
     -webkit-transform: scale(1.07);
     transform: scale(1.07);
 }
 /* line 82, ../scss/_info-bar.scss */
-.art-info-bar .art-header .art-avatar .art-lamp-light {
+.jerum-info-bar .jerum-header .jerum-avatar .jerum-lamp-light {
     z-index: 2;
 }
 /* line 85, ../scss/_info-bar.scss */
-.art-info-bar .art-header .art-avatar .art-lamp-light:before {
+.jerum-info-bar .jerum-header .jerum-avatar .jerum-lamp-light:before {
     content: "";
     position: absolute;
     bottom: -1px;
@@ -1289,7 +1320,11 @@ info bar
     }
 }
 /* line 108, ../scss/_info-bar.scss */
-.art-info-bar .art-header .art-avatar .art-lamp-light .art-available-lamp {
+.jerum-info-bar
+    .jerum-header
+    .jerum-avatar
+    .jerum-lamp-light
+    .jerum-available-lamp {
     position: absolute;
     bottom: 3px;
     right: 5px;
@@ -1302,11 +1337,11 @@ info bar
     transition: 0.4s ease-in-out;
 }
 /* line 119, ../scss/_info-bar.scss */
-.art-info-bar
-    .art-header
-    .art-avatar
-    .art-lamp-light
-    .art-available-lamp:after {
+.jerum-info-bar
+    .jerum-header
+    .jerum-avatar
+    .jerum-lamp-light
+    .jerum-available-lamp:after {
     position: relative;
     content: "I am available for freelance hire";
     width: 115px;
@@ -1329,11 +1364,11 @@ info bar
     text-align: left;
 }
 /* line 140, ../scss/_info-bar.scss */
-.art-info-bar
-    .art-header
-    .art-avatar
-    .art-lamp-light
-    .art-available-lamp:before {
+.jerum-info-bar
+    .jerum-header
+    .jerum-avatar
+    .jerum-lamp-light
+    .jerum-available-lamp:before {
     content: "";
     position: absolute;
     height: 5px;
@@ -1350,74 +1385,77 @@ info bar
     z-index: 99;
 }
 /* line 155, ../scss/_info-bar.scss */
-.art-info-bar
-    .art-header
-    .art-avatar
-    .art-lamp-light
-    .art-available-lamp:hover {
+.jerum-info-bar
+    .jerum-header
+    .jerum-avatar
+    .jerum-lamp-light
+    .jerum-available-lamp:hover {
     -webkit-transform: scale(1);
     transform: scale(1);
 }
 /* line 158, ../scss/_info-bar.scss */
-.art-info-bar
-    .art-header
-    .art-avatar
-    .art-lamp-light
-    .art-available-lamp:hover:after {
+.jerum-info-bar
+    .jerum-header
+    .jerum-avatar
+    .jerum-lamp-light
+    .jerum-available-lamp:hover:after {
     opacity: 1;
     -webkit-transform: translateX(0);
     transform: translateX(0);
 }
 /* line 163, ../scss/_info-bar.scss */
-.art-info-bar
-    .art-header
-    .art-avatar
-    .art-lamp-light
-    .art-available-lamp:hover:before {
+.jerum-info-bar
+    .jerum-header
+    .jerum-avatar
+    .jerum-lamp-light
+    .jerum-available-lamp:hover:before {
     opacity: 1;
     -webkit-transform: translateX(0) rotate(45deg);
     transform: translateX(0) rotate(45deg);
 }
 /* line 171, ../scss/_info-bar.scss */
-.art-info-bar .art-header .art-avatar .art-lamp-light.art-not-available:before {
+.jerum-info-bar
+    .jerum-header
+    .jerum-avatar
+    .jerum-lamp-light.jerum-not-available:before {
     opacity: 0;
     -webkit-animation: none;
     animation: none;
 }
 /* line 176, ../scss/_info-bar.scss */
-.art-info-bar
-    .art-header
-    .art-avatar
-    .art-lamp-light.art-not-available
-    .art-available-lamp {
+.jerum-info-bar
+    .jerum-header
+    .jerum-avatar
+    .jerum-lamp-light.jerum-not-available
+    .jerum-available-lamp {
     background: red;
 }
 /* line 179, ../scss/_info-bar.scss */
-.art-info-bar
-    .art-header
-    .art-avatar
-    .art-lamp-light.art-not-available
-    .art-available-lamp:after {
+.jerum-info-bar
+    .jerum-header
+    .jerum-avatar
+    .jerum-lamp-light.jerum-not-available
+    .jerum-available-lamp:after {
     content: "Sorry I'm busy today";
 }
 /* line 188, ../scss/_info-bar.scss */
-.art-info-bar .art-name {
+.jerum-info-bar .jerum-name {
     color: #fafafc;
     -webkit-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
 }
 /* line 192, ../scss/_info-bar.scss */
-.art-info-bar .art-name a {
+.jerum-info-bar .jerum-name a {
     color: #fafafc;
     -webkit-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
 }
 /* line 199, ../scss/_info-bar.scss */
-.art-info-bar .art-name:hover a {
+.jerum-info-bar .jerum-name:hover a {
     color: #9bff88;
 }
 /* line 205, ../scss/_info-bar.scss */
-.art-info-bar .art-lang-skills {
+.jerum-info-bar .jerum-lang-skills {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1428,21 +1466,24 @@ info bar
     justify-content: space-between;
 }
 /* line 210, ../scss/_info-bar.scss */
-.art-info-bar .art-lang-skills .art-lang-skills-item {
+.jerum-info-bar .jerum-lang-skills .jerum-lang-skills-item {
     width: 33.33333%;
     text-align: center;
     margin-bottom: 15px;
 }
 /* line 215, ../scss/_info-bar.scss */
-.art-info-bar .art-lang-skills .art-lang-skills-item .art-cirkle-progress {
+.jerum-info-bar
+    .jerum-lang-skills
+    .jerum-lang-skills-item
+    .jerum-cirkle-progress {
     width: 65%;
     margin: 0 auto 15px;
 }
 /* line 219, ../scss/_info-bar.scss */
-.art-info-bar
-    .art-lang-skills
-    .art-lang-skills-item
-    .art-cirkle-progress
+.jerum-info-bar
+    .jerum-lang-skills
+    .jerum-lang-skills-item
+    .jerum-cirkle-progress
     .progressbar-text {
     font-size: 11px;
     color: #ffffff !important;
@@ -1450,22 +1491,25 @@ info bar
     left: 45% !important;
 }
 /* line 225, ../scss/_info-bar.scss */
-.art-info-bar
-    .art-lang-skills
-    .art-lang-skills-item
-    .art-cirkle-progress
+.jerum-info-bar
+    .jerum-lang-skills
+    .jerum-lang-skills-item
+    .jerum-cirkle-progress
     .progressbar-text:after {
     content: "%";
     position: absolute;
     right: -7px;
 }
 /* line 236, ../scss/_info-bar.scss */
-.art-info-bar .art-hard-skills .art-hard-skills-item {
+.jerum-info-bar .jerum-hard-skills .jerum-hard-skills-item {
     margin-bottom: 15px;
     position: relative;
 }
 /* line 240, ../scss/_info-bar.scss */
-.art-info-bar .art-hard-skills .art-hard-skills-item .art-skill-heading {
+.jerum-info-bar
+    .jerum-hard-skills
+    .jerum-hard-skills-item
+    .jerum-skill-heading {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1474,14 +1518,17 @@ info bar
     justify-content: space-between;
 }
 /* line 245, ../scss/_info-bar.scss */
-.art-info-bar .art-hard-skills .art-hard-skills-item .art-line-progress {
+.jerum-info-bar
+    .jerum-hard-skills
+    .jerum-hard-skills-item
+    .jerum-line-progress {
     width: 100%;
 }
 /* line 248, ../scss/_info-bar.scss */
-.art-info-bar
-    .art-hard-skills
-    .art-hard-skills-item
-    .art-line-progress
+.jerum-info-bar
+    .jerum-hard-skills
+    .jerum-hard-skills-item
+    .jerum-line-progress
     .progressbar-text {
     width: 100%;
     text-align: right;
@@ -1490,21 +1537,21 @@ info bar
     color: #e2ffe2 !important;
 }
 /* line 259, ../scss/_info-bar.scss */
-.art-info-bar .art-knowledge-list {
+.jerum-info-bar .jerum-knowledge-list {
     padding-left: 0;
 }
 /* line 262, ../scss/_info-bar.scss */
-.art-info-bar .art-knowledge-list li {
+.jerum-info-bar .jerum-knowledge-list li {
     list-style-type: none;
     margin-bottom: 5px;
     color: #ffffff;
 }
 /* line 267, ../scss/_info-bar.scss */
-.art-info-bar .art-knowledge-list li:last-child {
+.jerum-info-bar .jerum-knowledge-list li:last-child {
     margin-bottom: 0;
 }
 /* line 271, ../scss/_info-bar.scss */
-.art-info-bar .art-knowledge-list li:before {
+.jerum-info-bar .jerum-knowledge-list li:before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f00c";
@@ -1514,7 +1561,7 @@ info bar
     margin-right: 10px;
 }
 /* line 283, ../scss/_info-bar.scss */
-.art-info-bar .art-links-frame {
+.jerum-info-bar .jerum-links-frame {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1527,7 +1574,7 @@ info bar
     flex-direction: column;
 }
 /* line 289, ../scss/_info-bar.scss */
-.art-info-bar .art-ls-social {
+.jerum-info-bar .jerum-ls-social {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1553,34 +1600,34 @@ info bar
     z-index: 999;
 }
 /* line 303, ../scss/_info-bar.scss */
-.art-info-bar .art-ls-social a {
+.jerum-info-bar .jerum-ls-social a {
     color: #ffffff;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
     font-size: 20px;
 }
 /* line 307, ../scss/_info-bar.scss */
-.art-info-bar .art-ls-social a:hover {
+.jerum-info-bar .jerum-ls-social a:hover {
     text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
     color: #9bff88;
 }
 
 /* ----- progresbar color ----- */
 /* line 319, ../scss/_info-bar.scss */
-.art-line-progress path:first-child {
+.jerum-line-progress path:first-child {
     stroke: #191923;
 }
 /* line 322, ../scss/_info-bar.scss */
-.art-line-progress path:last-child {
+.jerum-line-progress path:last-child {
     stroke: #9bff88;
 }
 
 /* line 330, ../scss/_info-bar.scss */
-.art-cirkle-progress path:first-child {
+.jerum-cirkle-progress path:first-child {
     stroke: #191923;
 }
 /* line 333, ../scss/_info-bar.scss */
-.art-cirkle-progress path:last-child {
+.jerum-cirkle-progress path:last-child {
     stroke: #9bff88;
 }
 
@@ -1590,13 +1637,13 @@ menu bar
 
 ------------------------------ */
 /* line 6, ../scss/_menu-bar.scss */
-.art-menu-bar {
+.jerum-menu-bar {
     /* ----- main menu  ----- */
     /* ----- language change  ----- */
     /* ----- current page title ----- */
 }
 /* line 8, ../scss/_menu-bar.scss */
-.art-menu-bar nav {
+.jerum-menu-bar nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1607,13 +1654,13 @@ menu bar
     position: relative;
 }
 /* line 14, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu {
+.jerum-menu-bar nav .main-menu {
     width: 100%;
     padding: 0;
     margin: 0 0 60px;
 }
 /* line 19, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item {
+.jerum-menu-bar nav .main-menu .menu-item {
     width: 100%;
     list-style-type: none;
     -webkit-transition: 0.55s ease-in-out;
@@ -1624,57 +1671,57 @@ menu bar
     transition: 0.55s ease-in-out;
 }
 /* line 27, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item:nth-child(1) {
+.jerum-menu-bar nav .main-menu .menu-item:nth-child(1) {
     -webkit-transition-delay: 0.05s;
     transition-delay: 0.05s;
 }
 /* line 31, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item:nth-child(2) {
+.jerum-menu-bar nav .main-menu .menu-item:nth-child(2) {
     -webkit-transition-delay: 0.1s;
     transition-delay: 0.1s;
 }
 /* line 35, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item:nth-child(3) {
+.jerum-menu-bar nav .main-menu .menu-item:nth-child(3) {
     -webkit-transition-delay: 0.15s;
     transition-delay: 0.15s;
 }
 /* line 39, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item:nth-child(4) {
+.jerum-menu-bar nav .main-menu .menu-item:nth-child(4) {
     -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s;
 }
 /* line 43, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item:nth-child(5) {
+.jerum-menu-bar nav .main-menu .menu-item:nth-child(5) {
     -webkit-transition-delay: 0.25s;
     transition-delay: 0.25s;
 }
 /* line 47, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item:nth-child(6) {
+.jerum-menu-bar nav .main-menu .menu-item:nth-child(6) {
     -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s;
 }
 /* line 51, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item:nth-child(7) {
+.jerum-menu-bar nav .main-menu .menu-item:nth-child(7) {
     -webkit-transition-delay: 0.35s;
     transition-delay: 0.35s;
 }
 /* line 55, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item:nth-child(8) {
+.jerum-menu-bar nav .main-menu .menu-item:nth-child(8) {
     -webkit-transition-delay: 0.4s;
     transition-delay: 0.4s;
 }
 /* line 59, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item:nth-child(9) {
+.jerum-menu-bar nav .main-menu .menu-item:nth-child(9) {
     -webkit-transition-delay: 0.45s;
     transition-delay: 0.45s;
 }
 /* line 63, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item:nth-child(10) {
+.jerum-menu-bar nav .main-menu .menu-item:nth-child(10) {
     -webkit-transition-delay: 0.5s;
     transition-delay: 0.5s;
 }
 /* line 67, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item a {
+.jerum-menu-bar nav .main-menu .menu-item a {
     padding: 7px 30px;
     display: inline-block;
     width: 100%;
@@ -1687,17 +1734,17 @@ menu bar
     transition: 0.2s ease-in-out;
 }
 /* line 78, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item a:hover {
+.jerum-menu-bar nav .main-menu .menu-item a:hover {
     color: #fafafc;
     text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
 }
 /* line 84, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item.menu-item-has-children {
+.jerum-menu-bar nav .main-menu .menu-item.menu-item-has-children {
     padding-left: 0;
     padding-right: 0;
 }
 /* line 88, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item.menu-item-has-children:after {
+.jerum-menu-bar nav .main-menu .menu-item.menu-item-has-children:after {
     position: absolute;
     font-family: "Font Awesome 5 free";
     content: "\f054";
@@ -1716,7 +1763,7 @@ menu bar
     transition: 0.4s ease-in-out;
 }
 /* line 106, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item .sub-menu {
+.jerum-menu-bar nav .main-menu .menu-item .sub-menu {
     padding-left: 0;
     width: 100%;
     display: block;
@@ -1733,27 +1780,27 @@ menu bar
     transition: max-height 0.6s ease-in-out;
 }
 /* line 119, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item .sub-menu .menu-item {
+.jerum-menu-bar nav .main-menu .menu-item .sub-menu .menu-item {
     position: relative;
     opacity: 0;
     -webkit-transition: 0.55s ease-in-out;
     transition: 0.55s ease-in-out;
 }
 /* line 124, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item .sub-menu .menu-item a {
+.jerum-menu-bar nav .main-menu .menu-item .sub-menu .menu-item a {
     padding: 7px 30px;
     font-weight: 400;
     font-size: 15px;
 }
 /* line 130, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item .sub-menu .menu-item .sub-menu {
+.jerum-menu-bar nav .main-menu .menu-item .sub-menu .menu-item .sub-menu {
     margin: 0;
     max-height: 0;
     -webkit-transition: max-height 1s ease-in-out;
     transition: max-height 1s ease-in-out;
 }
 /* line 137, ../scss/_menu-bar.scss */
-.art-menu-bar
+.jerum-menu-bar
     nav
     .main-menu
     .menu-item
@@ -1763,38 +1810,38 @@ menu bar
     transform: rotate(90deg);
 }
 /* line 141, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item .sub-menu .menu-item:hover .sub-menu {
+.jerum-menu-bar nav .main-menu .menu-item .sub-menu .menu-item:hover .sub-menu {
     max-height: 500px;
 }
 /* line 147, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item .sub-menu .menu-item:first-child {
+.jerum-menu-bar nav .main-menu .menu-item .sub-menu .menu-item:first-child {
     margin-top: 15px;
 }
 /* line 151, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item .sub-menu .menu-item:last-child {
+.jerum-menu-bar nav .main-menu .menu-item .sub-menu .menu-item:last-child {
     margin-bottom: 15px;
 }
 /* line 155, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item .sub-menu.art-active {
+.jerum-menu-bar nav .main-menu .menu-item .sub-menu.jerum-active {
     pointer-events: all;
     max-height: 500px;
 }
 /* line 159, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item .sub-menu.art-active .menu-item {
+.jerum-menu-bar nav .main-menu .menu-item .sub-menu.jerum-active .menu-item {
     opacity: 1;
 }
 /* line 166, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item:hover.menu-item-has-children:after {
+.jerum-menu-bar nav .main-menu .menu-item:hover.menu-item-has-children:after {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 /* line 172, ../scss/_menu-bar.scss */
-.art-menu-bar nav .main-menu .menu-item.current-menu-item a:first-child {
+.jerum-menu-bar nav .main-menu .menu-item.current-menu-item a:first-child {
     color: #9bff88;
     text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
 }
 /* line 179, ../scss/_menu-bar.scss */
-.art-menu-bar
+.jerum-menu-bar
     nav
     .main-menu
     .menu-item.current-menu-item
@@ -1805,7 +1852,7 @@ menu bar
     text-shadow: none;
 }
 /* line 183, ../scss/_menu-bar.scss */
-.art-menu-bar
+.jerum-menu-bar
     nav
     .main-menu
     .menu-item.current-menu-item
@@ -1816,7 +1863,7 @@ menu bar
     text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
 }
 /* line 195, ../scss/_menu-bar.scss */
-.art-menu-bar .art-language-change {
+.jerum-menu-bar .jerum-language-change {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -1832,7 +1879,7 @@ menu bar
     margin: 0;
 }
 /* line 205, ../scss/_menu-bar.scss */
-.art-menu-bar .art-language-change li {
+.jerum-menu-bar .jerum-language-change li {
     list-style-type: none;
     -webkit-box-shadow: inset 0 3px 8px 0 rgba(15, 15, 20, 0.2);
     box-shadow: inset 0 3px 8px 0 rgba(15, 15, 20, 0.2);
@@ -1844,7 +1891,7 @@ menu bar
     margin-bottom: 10px;
 }
 /* line 215, ../scss/_menu-bar.scss */
-.art-menu-bar .art-language-change li a {
+.jerum-menu-bar .jerum-language-change li a {
     text-transform: uppercase;
     height: 100%;
     width: 100%;
@@ -1856,27 +1903,27 @@ menu bar
     transition: 0.4s ease-in-out;
 }
 /* line 226, ../scss/_menu-bar.scss */
-.art-menu-bar .art-language-change li.art-active-lang {
+.jerum-menu-bar .jerum-language-change li.jerum-active-lang {
     background-color: #9bff88;
     -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
     box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
 }
 /* line 230, ../scss/_menu-bar.scss */
-.art-menu-bar .art-language-change li.art-active-lang a {
+.jerum-menu-bar .jerum-language-change li.jerum-active-lang a {
     color: #1e1e28;
 }
 /* line 235, ../scss/_menu-bar.scss */
-.art-menu-bar .art-language-change li:last-child {
+.jerum-menu-bar .jerum-language-change li:last-child {
     margin-bottom: 0;
 }
 /* line 243, ../scss/_menu-bar.scss */
-.art-menu-bar.art-active nav .menu-item {
+.jerum-menu-bar.jerum-active nav .menu-item {
     opacity: 1;
     -webkit-transform: translateX(0);
     transform: translateX(0);
 }
 /* line 250, ../scss/_menu-bar.scss */
-.art-menu-bar .art-current-page {
+.jerum-menu-bar .jerum-current-page {
     width: 200px;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -1895,23 +1942,23 @@ menu bar
     transition: 0.4s ease-in-out;
 }
 
-.art-menu-bar .art-current-page > a {
+.jerum-menu-bar .jerum-current-page > a {
     color: #9bff88;
 }
 /* line 267, ../scss/_menu-bar.scss */
-.art-menu-bar a {
+.jerum-menu-bar a {
     display: none;
     visibility: hidden;
     opacity: 0;
 }
 /* line 272, ../scss/_menu-bar.scss */
-.art-menu-bar a:first-child {
+.jerum-menu-bar a:first-child {
     visibility: visible;
     opacity: 1;
     display: block;
 }
 /* line 280, ../scss/_menu-bar.scss */
-.art-menu-bar.art-active .art-current-page {
+.jerum-menu-bar.jerum-active .jerum-current-page {
     opacity: 0;
 }
 
@@ -1922,7 +1969,7 @@ content
 ------------------------------ */
 /* ----- section title ----- */
 /* line 7, ../scss/_content.scss */
-.art-section-title {
+.jerum-section-title {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1931,20 +1978,20 @@ content
     justify-content: space-between;
 }
 /* line 11, ../scss/_content.scss */
-.art-section-title .art-title-frame {
+.jerum-section-title .jerum-title-frame {
     -ms-flex-item-align: center;
     align-self: center;
     position: relative;
     margin-bottom: 30px;
 }
 /* line 17, ../scss/_content.scss */
-.art-section-title .art-right-frame {
+.jerum-section-title .jerum-right-frame {
     padding-bottom: 30px;
 }
 
 /* ----- card ----- */
 /* line 22, ../scss/_content.scss */
-.art-card {
+.jerum-card {
     background: linear-gradient(159deg, #2d2d3a 0%, #2b2b35 100%);
     -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
     box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
@@ -1952,13 +1999,13 @@ content
     margin-bottom: 30px;
 }
 /* line 28, ../scss/_content.scss */
-.art-card.art-fluid-card {
+.jerum-card.jerum-fluid-card {
     height: calc(100% - 30px);
 }
 
 /* ----- banner ----- */
 /* line 33, ../scss/_content.scss */
-.art-banner-back {
+.jerum-banner-back {
     content: "";
     position: absolute;
     z-index: 0;
@@ -1974,7 +2021,7 @@ content
 }
 
 /* line 47, ../scss/_content.scss */
-.art-banner {
+.jerum-banner {
     -webkit-transition: 0.55s ease-in-out;
     transition: 0.55s ease-in-out;
     background-size: cover;
@@ -1985,7 +2032,7 @@ content
     z-index: 999;
 }
 /* line 55, ../scss/_content.scss */
-.art-banner .art-banner-overlay {
+.jerum-banner .jerum-banner-overlay {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2008,7 +2055,7 @@ content
     );
 }
 /* line 62, ../scss/_content.scss */
-.art-banner .art-banner-overlay.art-side-overlay {
+.jerum-banner .jerum-banner-overlay.jerum-side-overlay {
     background-image: -webkit-gradient(
         linear,
         left top,
@@ -2025,17 +2072,17 @@ content
     );
 }
 /* line 66, ../scss/_content.scss */
-.art-banner .art-banner-overlay .art-banner-title {
+.jerum-banner .jerum-banner-overlay .jerum-banner-title {
     width: 100%;
     -ms-flex-item-align: center;
     align-self: center;
 }
 /* line 70, ../scss/_content.scss */
-.art-banner .art-banner-overlay .art-banner-title h1 {
+.jerum-banner .jerum-banner-overlay .jerum-banner-title h1 {
     color: #fafafc;
 }
 /* line 75, ../scss/_content.scss */
-.art-banner .art-banner-overlay .art-banner-photo {
+.jerum-banner .jerum-banner-overlay .jerum-banner-photo {
     width: 390px;
     position: absolute;
     right: 30px;
@@ -2044,19 +2091,19 @@ content
 
 /* ----- typing code ----- */
 /* line 84, ../scss/_content.scss */
-.art-code {
+.jerum-code {
     font-family: "Courier Prime", monospace;
     color: #fafafc;
 }
 /* line 88, ../scss/_content.scss */
-.art-code i {
+.jerum-code i {
     font-style: normal;
     color: #9bff88;
 }
 
 /* ----- counters ----- */
 /* line 94, ../scss/_content.scss */
-.art-counter-frame {
+.jerum-counter-frame {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2068,18 +2115,18 @@ content
     position: relative;
 }
 /* line 101, ../scss/_content.scss */
-.art-counter-frame .art-counter-box {
+.jerum-counter-frame .jerum-counter-box {
     min-width: 60px;
 }
 /* line 104, ../scss/_content.scss */
-.art-counter-frame .art-counter-box .art-counter {
+.jerum-counter-frame .jerum-counter-box .jerum-counter {
     color: #9bff88;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     font-size: 22px;
 }
 /* line 111, ../scss/_content.scss */
-.art-counter-frame .art-counter-box .art-counter-plus {
+.jerum-counter-frame .jerum-counter-box .jerum-counter-plus {
     margin-left: 3px;
     color: #9bff88;
     font-weight: 600;
@@ -2089,7 +2136,7 @@ content
 
 /* ----- services ----- */
 /* line 121, ../scss/_content.scss */
-.art-service-icon-box {
+.jerum-service-icon-box {
     height: 500px;
     margin-bottom: 30px;
     position: relative;
@@ -2108,15 +2155,15 @@ content
     border-radius: 10px;
 }
 
-.art-service-ib-content h5 {
+.jerum-service-ib-content h5 {
     color: #000;
 }
 /* line 129, ../scss/_content.scss */
-.art-service-icon-box .art-service-ib-content {
+.jerum-service-icon-box .jerum-service-ib-content {
     padding: 10px 0px;
 }
 /* line 132, ../scss/_content.scss */
-.art-service-icon-box .art-service-ib-content .art-service-ib-icon {
+.jerum-service-icon-box .jerum-service-ib-content .jerum-service-ib-icon {
     position: absolute;
     right: 10px;
     bottom: -45px;
@@ -2131,7 +2178,7 @@ content
 
 /* ----- prices ----- */
 /* line 144, ../scss/_content.scss */
-.art-price {
+.jerum-price {
     margin-bottom: 30px;
     overflow: hidden;
     position: relative;
@@ -2144,12 +2191,12 @@ content
     transition: 0.55s ease-in-out;
 }
 /* line 154, ../scss/_content.scss */
-.art-price.art-popular-price {
+.jerum-price.jerum-popular-price {
     -webkit-transform: scale(1.03);
     transform: scale(1.03);
 }
 /* line 157, ../scss/_content.scss */
-.art-price.art-popular-price:before {
+.jerum-price.jerum-popular-price:before {
     font-size: 10px;
     position: absolute;
     -webkit-transform: rotate(45deg);
@@ -2168,12 +2215,12 @@ content
     background: #9bff88;
 }
 /* line 175, ../scss/_content.scss */
-.art-price .art-price-body {
+.jerum-price .jerum-price-body {
     position: relative;
     padding: 30px;
 }
 /* line 179, ../scss/_content.scss */
-.art-price .art-price-body .art-asterisk {
+.jerum-price .jerum-price-body .jerum-asterisk {
     position: absolute;
     width: 100%;
     bottom: 10px;
@@ -2183,7 +2230,7 @@ content
     opacity: 0.4;
 }
 /* line 189, ../scss/_content.scss */
-.art-price .art-price-body .art-price-cost {
+.jerum-price .jerum-price-body .jerum-price-cost {
     position: relative;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -2195,14 +2242,14 @@ content
     padding: 0 10px;
 }
 /* line 196, ../scss/_content.scss */
-.art-price .art-price-body .art-price-cost .art-number {
+.jerum-price .jerum-price-body .jerum-price-cost .jerum-number {
     font-size: 32px;
     color: #9bff88;
     font-weight: 600;
     margin-bottom: 0;
 }
 /* line 202, ../scss/_content.scss */
-.art-price .art-price-body .art-price-cost .art-number span {
+.jerum-price .jerum-price-body .jerum-price-cost .jerum-number span {
     color: #fafafc;
     font-size: 12px;
     font-weight: 200;
@@ -2210,7 +2257,7 @@ content
     opacity: 0.6;
 }
 /* line 210, ../scss/_content.scss */
-.art-price .art-price-body .art-price-cost .art-number sup {
+.jerum-price .jerum-price-body .jerum-price-cost .jerum-number sup {
     font-size: 14px;
     position: absolute;
     top: 15px;
@@ -2218,17 +2265,17 @@ content
     opacity: 0.6;
 }
 /* line 220, ../scss/_content.scss */
-.art-price .art-price-body .art-price-list {
+.jerum-price .jerum-price-body .jerum-price-list {
     padding: 0;
     margin: 0 0 30px;
 }
 /* line 224, ../scss/_content.scss */
-.art-price .art-price-body .art-price-list li {
+.jerum-price .jerum-price-body .jerum-price-list li {
     list-style-type: none;
     margin-bottom: 15px;
 }
 /* line 228, ../scss/_content.scss */
-.art-price .art-price-body .art-price-list li:before {
+.jerum-price .jerum-price-body .jerum-price-list li:before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f00c";
@@ -2237,11 +2284,11 @@ content
     color: #9bff88;
 }
 /* line 237, ../scss/_content.scss */
-.art-price .art-price-body .art-price-list li.art-empty-item {
+.jerum-price .jerum-price-body .jerum-price-list li.jerum-empty-item {
     opacity: 0.3;
 }
 /* line 240, ../scss/_content.scss */
-.art-price .art-price-body .art-price-list li.art-empty-item:before {
+.jerum-price .jerum-price-body .jerum-price-list li.jerum-empty-item:before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f00d";
@@ -2250,18 +2297,18 @@ content
     color: #9bff88;
 }
 /* line 252, ../scss/_content.scss */
-.art-price .art-price-body .art-link {
+.jerum-price .jerum-price-body .jerum-link {
     margin: 0;
 }
 
 /* ----- testimonials ----- */
 /* line 258, ../scss/_content.scss */
-.art-testimonial-slider {
+.jerum-testimonial-slider {
     width: 100%;
 }
 
 /* line 262, ../scss/_content.scss */
-.art-testimonial {
+.jerum-testimonial {
     position: relative;
     background-size: cover;
     padding: 30px;
@@ -2271,13 +2318,13 @@ content
     box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
 }
 /* line 269, ../scss/_content.scss */
-.art-testimonial .testimonial-body {
+.jerum-testimonial .testimonial-body {
     width: 100%;
     height: 100%;
     z-index: 0;
 }
 /* line 274, ../scss/_content.scss */
-.art-testimonial .testimonial-body .art-testimonial-face {
+.jerum-testimonial .testimonial-body .jerum-testimonial-face {
     position: absolute;
     -o-object-fit: cover;
     object-fit: cover;
@@ -2290,7 +2337,7 @@ content
     box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
 }
 /* line 286, ../scss/_content.scss */
-.art-testimonial .art-testimonial-footer {
+.jerum-testimonial .jerum-testimonial-footer {
     position: relative;
     overflow: hidden;
     display: -webkit-box;
@@ -2303,7 +2350,7 @@ content
     align-content: center;
 }
 /* line 293, ../scss/_content.scss */
-.art-testimonial .art-testimonial-footer .art-star-rate {
+.jerum-testimonial .jerum-testimonial-footer .jerum-star-rate {
     padding: 0;
     margin: 0;
     -webkit-box-shadow: inset 0 3px 8px 0 rgba(15, 15, 20, 0.2);
@@ -2319,16 +2366,19 @@ content
     color: #9bff88;
 }
 /* line 305, ../scss/_content.scss */
-.art-testimonial .art-testimonial-footer .art-star-rate li {
+.jerum-testimonial .jerum-testimonial-footer .jerum-star-rate li {
     list-style-type: none;
     margin-right: 5px;
 }
 /* line 309, ../scss/_content.scss */
-.art-testimonial .art-testimonial-footer .art-star-rate li.art-empty-item {
+.jerum-testimonial
+    .jerum-testimonial-footer
+    .jerum-star-rate
+    li.jerum-empty-item {
     color: rgba(43, 43, 53, 0.98);
 }
 /* line 315, ../scss/_content.scss */
-.art-testimonial .art-testimonial-footer .art-testimonial-icon {
+.jerum-testimonial .jerum-testimonial-footer .jerum-testimonial-icon {
     position: absolute;
     left: 45%;
     top: 20px;
@@ -2342,7 +2392,7 @@ content
 }
 
 /* line 327, ../scss/_content.scss */
-.art-slider-navigation {
+.jerum-slider-navigation {
     padding: 15px 0 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2352,7 +2402,7 @@ content
     justify-content: space-between;
 }
 /* line 332, ../scss/_content.scss */
-.art-slider-navigation .swiper-pagination-bullet {
+.jerum-slider-navigation .swiper-pagination-bullet {
     margin-right: 10px;
     background-color: #8c8c8e;
     border-radius: 5px;
@@ -2362,48 +2412,48 @@ content
     transition: 0.4s ease-in-out;
 }
 /* line 340, ../scss/_content.scss */
-.art-slider-navigation .swiper-pagination-bullet:focus {
+.jerum-slider-navigation .swiper-pagination-bullet:focus {
     outline: inherit;
 }
 /* line 344, ../scss/_content.scss */
-.art-slider-navigation
+.jerum-slider-navigation
     .swiper-pagination-bullet.swiper-pagination-bullet-active {
     width: 20px;
     background-color: #9bff88;
     opacity: 1;
 }
 /* line 351, ../scss/_content.scss */
-.art-slider-navigation .art-slider-nav-frame {
+.jerum-slider-navigation .jerum-slider-nav-frame {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
 /* line 354, ../scss/_content.scss */
-.art-slider-navigation .art-slider-nav-frame .art-slider-nav {
+.jerum-slider-navigation .jerum-slider-nav-frame .jerum-slider-nav {
     margin-left: 15px;
     cursor: pointer;
     -webkit-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
 }
 /* line 359, ../scss/_content.scss */
-.art-slider-navigation
-    .art-slider-nav-frame
-    .art-slider-nav.swiper-button-disabled {
+.jerum-slider-navigation
+    .jerum-slider-nav-frame
+    .jerum-slider-nav.swiper-button-disabled {
     opacity: 0.2;
     cursor: not-allowed;
 }
 /* line 364, ../scss/_content.scss */
-.art-slider-navigation .art-slider-nav-frame .art-slider-nav:focus {
+.jerum-slider-navigation .jerum-slider-nav-frame .jerum-slider-nav:focus {
     outline: inherit;
 }
 
 /* ----- timeline ----- */
 /* line 371, ../scss/_content.scss */
-.art-timeline {
+.jerum-timeline {
     position: relative;
 }
 /* line 374, ../scss/_content.scss */
-.art-timeline::before {
+.jerum-timeline::before {
     content: "";
     position: absolute;
     top: 10px;
@@ -2413,11 +2463,11 @@ content
     background: #191923;
 }
 /* line 384, ../scss/_content.scss */
-.art-timeline .art-timeline-item {
+.jerum-timeline .jerum-timeline-item {
     position: relative;
 }
 /* line 387, ../scss/_content.scss */
-.art-timeline .art-timeline-item .art-timeline-mark-light {
+.jerum-timeline .jerum-timeline-item .jerum-timeline-mark-light {
     background: #fafafc;
     position: absolute;
     top: 4px;
@@ -2430,7 +2480,7 @@ content
     transition: 0.4s ease-in-out;
 }
 /* line 399, ../scss/_content.scss */
-.art-timeline .art-timeline-item .art-timeline-mark {
+.jerum-timeline .jerum-timeline-item .jerum-timeline-mark {
     position: absolute;
     top: 8px;
     right: 0;
@@ -2443,12 +2493,12 @@ content
     box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
 }
 /* line 412, ../scss/_content.scss */
-.art-timeline .art-timeline-item:hover .art-timeline-mark-light {
+.jerum-timeline .jerum-timeline-item:hover .jerum-timeline-mark-light {
     -webkit-animation: puls 1s infinite;
     animation: puls 1s infinite;
 }
 /* line 418, ../scss/_content.scss */
-.art-timeline .art-timeline-content {
+.jerum-timeline .jerum-timeline-content {
     position: relative;
     margin-right: 45px;
     background: linear-gradient(159deg, #2d2d3a 0%, #2b2b35 100%);
@@ -2458,7 +2508,7 @@ content
     box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
 }
 /* line 426, ../scss/_content.scss */
-.art-timeline .art-timeline-content:after {
+.jerum-timeline .jerum-timeline-content:after {
     height: 10px;
     width: 10px;
     background-color: rgba(43, 43, 53, 0.98);
@@ -2471,7 +2521,7 @@ content
     border-top-right-radius: 50%;
 }
 /* line 438, ../scss/_content.scss */
-.art-timeline .art-timeline-content .art-card-header {
+.jerum-timeline .jerum-timeline-content .jerum-card-header {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2483,15 +2533,19 @@ content
     flex-wrap: nowrap;
 }
 /* line 444, ../scss/_content.scss */
-.art-timeline .art-timeline-content .art-card-header .art-right-side {
+.jerum-timeline .jerum-timeline-content .jerum-card-header .jerum-right-side {
     margin-bottom: 15px;
 }
 
-.art-left-side {
+.jerum-left-side {
     flex-basis: 60%;
 }
 /* line 447, ../scss/_content.scss */
-.art-timeline .art-timeline-content .art-card-header .art-right-side .art-date {
+.jerum-timeline
+    .jerum-timeline-content
+    .jerum-card-header
+    .jerum-right-side
+    .jerum-date {
     color: #fff;
     margin-left: auto;
     background: #20202a;
@@ -2502,14 +2556,14 @@ content
     font-size: 10px;
 }
 
-.art-timeline-content p,
-.art-timeline-content div > ul > li,
-.art-timeline-content div > ol > li {
+.jerum-timeline-content p,
+.jerum-timeline-content div > ul > li,
+.jerum-timeline-content div > ol > li {
     color: #efffdd;
     font-size: 13px;
 }
 
-.art-timeline-content .progressbar-text {
+.jerum-timeline-content .progressbar-text {
     width: 100%;
     text-align: right;
     top: -6px !important;
@@ -2519,8 +2573,8 @@ content
 
 /* ----- contact form ----- */
 /* line 461, ../scss/_content.scss */
-.art-form-field input,
-.art-form-field textarea {
+.jerum-form-field input,
+.jerum-form-field textarea {
     height: 50px;
     width: 100%;
     background: linear-gradient(159deg, #252532 0%, #23232d 100%);
@@ -2550,41 +2604,41 @@ content
 }
 
 /* line 479, ../scss/_content.scss */
-.art-form-field textarea {
+.jerum-form-field textarea {
     padding-left: 15px;
     padding-top: 15px;
     height: 150px;
     border-left: solid 50px #20202a;
 }
 /* line 485, ../scss/_content.scss */
-.art-form-field textarea.art-active {
+.jerum-form-field textarea.jerum-active {
     border-color: #9bff88;
 }
 /* line 489, ../scss/_content.scss */
-.art-form-field textarea:focus {
+.jerum-form-field textarea:focus {
     border-color: #9bff88;
 }
 
 /* line 494, ../scss/_content.scss */
-.art-contact-form .art-input:focus {
+.jerum-contact-form .jerum-input:focus {
     outline: none;
 }
 
 /* line 498, ../scss/_content.scss */
-.art-contact-form .art-input.art-active + label,
-.art-contact-form .art-input:focus + label {
+.jerum-contact-form .jerum-input.jerum-active + label,
+.jerum-contact-form .jerum-input:focus + label {
     background: #9bff88;
     color: #20202a;
 }
 
 /* line 504, ../scss/_content.scss */
-.art-form-field {
+.jerum-form-field {
     position: relative;
     margin-bottom: 30px;
 }
 
 /* line 509, ../scss/_content.scss */
-.art-contact-form label {
+.jerum-contact-form label {
     text-align: center;
     color: #9bff88;
     position: absolute;
@@ -2605,23 +2659,23 @@ content
 }
 
 /* line 528, ../scss/_content.scss */
-.art-submit-frame {
+.jerum-submit-frame {
     position: relative;
     height: 45px;
 }
 /* line 532, ../scss/_content.scss */
-.art-submit-frame .art-submit {
+.jerum-submit-frame .jerum-submit {
     margin: 0;
     overflow: hidden;
     position: relative;
     z-index: 999;
 }
 /* line 538, ../scss/_content.scss */
-.art-submit-frame .art-submit:focus {
+.jerum-submit-frame .jerum-submit:focus {
     outline: inherit;
 }
 /* line 543, ../scss/_content.scss */
-.art-submit-frame .art-success {
+.jerum-submit-frame .jerum-success {
     position: absolute;
     top: 0;
     left: 0;
@@ -2649,7 +2703,7 @@ content
 
 /* ----- blog ----- */
 /* line 567, ../scss/_content.scss */
-.art-blog-card {
+.jerum-blog-card {
     position: relative;
     overflow: hidden;
     -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
@@ -2657,13 +2711,13 @@ content
     margin-bottom: 30px;
 }
 /* line 573, ../scss/_content.scss */
-.art-blog-card .art-port-cover {
+.jerum-blog-card .jerum-port-cover {
     position: relative;
     padding-bottom: 60%;
     display: block;
 }
 /* line 578, ../scss/_content.scss */
-.art-blog-card .art-port-cover img {
+.jerum-blog-card .jerum-port-cover img {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -2675,26 +2729,26 @@ content
     transition: 0.4s ease-in-out;
 }
 /* line 588, ../scss/_content.scss */
-.art-blog-card .art-post-description {
+.jerum-blog-card .jerum-post-description {
     background: linear-gradient(159deg, #2d2d3a 0%, #2b2b35 100%);
     padding: 30px;
     position: relative;
     bottom: 0;
 }
 /* line 597, ../scss/_content.scss */
-.art-blog-card:hover .art-port-cover img {
+.jerum-blog-card:hover .jerum-port-cover img {
     -webkit-transform: scale(1.07);
     transform: scale(1.07);
 }
 
 /* line 605, ../scss/_content.scss */
-.art-blog-slider .art-blog-card {
+.jerum-blog-slider .jerum-blog-card {
     margin-bottom: 0;
 }
 
 /* ----- pagination ----- */
 /* line 610, ../scss/_content.scss */
-.art-pagination {
+.jerum-pagination {
     -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
     box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
     padding: 30px 30px 25px;
@@ -2707,7 +2761,7 @@ content
     display: flex;
 }
 /* line 617, ../scss/_content.scss */
-.art-pagination .art-pagination-center {
+.jerum-pagination .jerum-pagination-center {
     text-align: center;
     position: absolute;
     width: 200px;
@@ -2716,23 +2770,23 @@ content
     margin-left: -100px;
 }
 /* line 625, ../scss/_content.scss */
-.art-pagination .art-pagination-center a {
+.jerum-pagination .jerum-pagination-center a {
     -webkit-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
     padding: 0 5px;
 }
 /* line 629, ../scss/_content.scss */
-.art-pagination .art-pagination-center a.art-active-pag {
+.jerum-pagination .jerum-pagination-center a.jerum-active-pag {
     color: #9bff88;
 }
 /* line 635, ../scss/_content.scss */
-.art-pagination .art-link {
+.jerum-pagination .jerum-link {
     margin: 0;
 }
 
 /* ----- brands ----- */
 /* line 640, ../scss/_content.scss */
-.art-brand {
+.jerum-brand {
     width: 120px;
     height: 120px;
     margin: 0 auto;
@@ -2743,7 +2797,7 @@ content
     transition: 0.4s ease-in-out;
 }
 /* line 649, ../scss/_content.scss */
-.art-brand:hover {
+.jerum-brand:hover {
     opacity: 1;
 }
 
@@ -2786,7 +2840,7 @@ footer a:hover {
     color: #fafafc;
 }
 
-.art-copy {
+.jerum-copy {
     text-align: center;
 }
 
@@ -2797,18 +2851,18 @@ portfolio
 ------------------------------ */
 /* ----- filter ----- */
 /* line 687, ../scss/_content.scss */
-.art-filter a {
+.jerum-filter a {
     color: #8c8c8e;
     margin-bottom: 0;
 }
 /* line 691, ../scss/_content.scss */
-.art-filter a.art-current {
+.jerum-filter a.jerum-current {
     color: #000;
 }
 
 /* ----- portfolio items ----- */
 /* line 697, ../scss/_content.scss */
-.art-portfolio-item-frame {
+.jerum-portfolio-item-frame {
     display: block;
     width: 100%;
     outline: inherit;
@@ -2819,7 +2873,7 @@ portfolio
     padding-bottom: 60%;
 }
 /* line 706, ../scss/_content.scss */
-.art-portfolio-item-frame img {
+.jerum-portfolio-item-frame img {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -2835,7 +2889,7 @@ portfolio
     transition: 0.4s ease-in-out;
 }
 /* line 718, ../scss/_content.scss */
-.art-portfolio-item-frame .art-item-hover {
+.jerum-portfolio-item-frame .jerum-item-hover {
     width: 27px;
     height: 27px;
     -webkit-box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
@@ -2865,17 +2919,17 @@ portfolio
     transition: 0.4s ease-in-out;
 }
 /* line 737, ../scss/_content.scss */
-.art-portfolio-item-frame:hover .art-item-hover {
+.jerum-portfolio-item-frame:hover .jerum-item-hover {
     opacity: 0.5;
 }
 /* line 740, ../scss/_content.scss */
-.art-portfolio-item-frame:hover .art-item-hover:hover {
+.jerum-portfolio-item-frame:hover .jerum-item-hover:hover {
     opacity: 1;
     -webkit-transform: scale(1.07);
     transform: scale(1.07);
 }
 /* line 746, ../scss/_content.scss */
-.art-portfolio-item-frame:hover img {
+.jerum-portfolio-item-frame:hover img {
     -webkit-transform: scale(1.07);
     transform: scale(1.07);
     -webkit-filter: brightness(100%) blur(0);
@@ -2883,20 +2937,20 @@ portfolio
 }
 
 /* line 753, ../scss/_content.scss */
-.art-grid {
+.jerum-grid {
     -webkit-transition: 0.55s ease-in-out;
     transition: 0.55s ease-in-out;
     width: 100%;
     /* clear fix */
 }
 /* line 757, ../scss/_content.scss */
-.art-grid:after {
+.jerum-grid:after {
     content: "";
     display: block;
     clear: both;
 }
 /* line 763, ../scss/_content.scss */
-.art-grid .art-grid-item {
+.jerum-grid .jerum-grid-item {
     float: left;
     margin-bottom: 30px;
     overflow: hidden;
@@ -2905,7 +2959,7 @@ portfolio
     padding: 0 15px;
 }
 /* line 771, ../scss/_content.scss */
-.art-grid .art-grid-item .art-item-description {
+.jerum-grid .jerum-grid-item .jerum-item-description {
     position: absolute;
     z-index: 9;
     bottom: 0;
@@ -2925,56 +2979,64 @@ portfolio
     transition: 0.55s ease-in-out;
 }
 /* line 785, ../scss/_content.scss */
-.art-grid .art-grid-item:hover .art-item-description {
+.jerum-grid .jerum-grid-item:hover .jerum-item-description {
     -webkit-transform: translateY(0);
     transform: translateY(0);
 }
 /* line 792, ../scss/_content.scss */
-.art-grid.art-grid-2-col .art-grid-item {
+.jerum-grid.jerum-grid-2-col .jerum-grid-item {
     width: 50%;
 }
 /* line 796, ../scss/_content.scss */
-.art-grid.art-grid-2-col
-    .art-grid-item
-    .art-portfolio-item-frame.art-horizontal {
+.jerum-grid.jerum-grid-2-col
+    .jerum-grid-item
+    .jerum-portfolio-item-frame.jerum-horizontal {
     padding-bottom: 66.7%;
 }
 /* line 800, ../scss/_content.scss */
-.art-grid.art-grid-2-col .art-grid-item .art-portfolio-item-frame.art-vertical {
+.jerum-grid.jerum-grid-2-col
+    .jerum-grid-item
+    .jerum-portfolio-item-frame.jerum-vertical {
     padding-bottom: 140%;
 }
 /* line 804, ../scss/_content.scss */
-.art-grid.art-grid-2-col .art-grid-item .art-portfolio-item-frame.art-square {
+.jerum-grid.jerum-grid-2-col
+    .jerum-grid-item
+    .jerum-portfolio-item-frame.jerum-square {
     padding-bottom: 90%;
 }
 /* line 812, ../scss/_content.scss */
-.art-grid.art-grid-3-col .art-grid-item {
+.jerum-grid.jerum-grid-3-col .jerum-grid-item {
     width: 33.3333%;
 }
 /* line 816, ../scss/_content.scss */
-.art-grid.art-grid-3-col
-    .art-grid-item
-    .art-portfolio-item-frame.art-horizontal {
+.jerum-grid.jerum-grid-3-col
+    .jerum-grid-item
+    .jerum-portfolio-item-frame.jerum-horizontal {
     padding-bottom: 65%;
 }
 /* line 820, ../scss/_content.scss */
-.art-grid.art-grid-3-col .art-grid-item .art-portfolio-item-frame.art-vertical {
+.jerum-grid.jerum-grid-3-col
+    .jerum-grid-item
+    .jerum-portfolio-item-frame.jerum-vertical {
     padding-bottom: 140%;
 }
 /* line 824, ../scss/_content.scss */
-.art-grid.art-grid-3-col .art-grid-item .art-portfolio-item-frame.art-square {
+.jerum-grid.jerum-grid-3-col
+    .jerum-grid-item
+    .jerum-portfolio-item-frame.jerum-square {
     padding-bottom: 90%;
 }
 
 /* ----- touch device ----- */
 @media (pointer: coarse) {
     /* line 834, ../scss/_content.scss */
-    .art-portfolio-item-frame .art-item-hover {
+    .jerum-portfolio-item-frame .jerum-item-hover {
         opacity: 0.5;
     }
 
     /* line 841, ../scss/_content.scss */
-    .art-grid .art-grid-item .art-item-description {
+    .jerum-grid .jerum-grid-item .jerum-item-description {
         position: relative;
         left: 0;
         width: 100%;
@@ -2982,14 +3044,14 @@ portfolio
         transform: translateY(0);
     }
     /* line 849, ../scss/_content.scss */
-    .art-grid .art-grid-item:hover .art-item-description {
+    .jerum-grid .jerum-grid-item:hover .jerum-item-description {
         -webkit-transform: none;
         transform: none;
     }
 }
 /* ----- single project ----- */
 /* line 857, ../scss/_content.scss */
-.art-project-cover {
+.jerum-project-cover {
     position: relative;
     overflow: hidden;
     -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
@@ -2997,12 +3059,12 @@ portfolio
     margin-bottom: 30px;
 }
 /* line 863, ../scss/_content.scss */
-.art-project-cover .art-portfolio-item-frame {
+.jerum-project-cover .jerum-portfolio-item-frame {
     padding-bottom: 50%;
 }
 
 /* line 868, ../scss/_content.scss */
-.art-project-category {
+.jerum-project-category {
     color: #646466;
     margin-left: auto;
     display: inline;
@@ -3139,7 +3201,7 @@ portfolio
 }
 
 /* line 972, ../scss/_content.scss */
-.art-recomendation-popup {
+.jerum-recomendation-popup {
     background-color: transparent;
     max-width: 50%;
 }
@@ -3151,12 +3213,12 @@ content (after 1600px)
 ------------------------------ */
 @media (max-width: 1600px) {
     /* line 985, ../scss/_content.scss */
-    .art-banner .art-banner-overlay .art-banner-title h1 {
+    .jerum-banner .jerum-banner-overlay .jerum-banner-title h1 {
         color: #fafafc;
         font-size: 42px;
     }
     /* line 991, ../scss/_content.scss */
-    .art-banner .art-banner-overlay .art-banner-photo {
+    .jerum-banner .jerum-banner-overlay .jerum-banner-photo {
         width: 360px;
     }
 }
@@ -3167,17 +3229,17 @@ content (after 1400px)
 ------------------------------ */
 @media (max-width: 1400px) {
     /* line 1003, ../scss/_content.scss */
-    .art-banner-back {
+    .jerum-banner-back {
         display: none;
     }
 
     /* line 1010, ../scss/_content.scss */
-    .art-banner .art-banner-overlay .art-banner-title h1 {
+    .jerum-banner .jerum-banner-overlay .jerum-banner-title h1 {
         color: #fafafc;
         font-size: 36px;
     }
     /* line 1016, ../scss/_content.scss */
-    .art-banner .art-banner-overlay .art-banner-photo {
+    .jerum-banner .jerum-banner-overlay .jerum-banner-photo {
         width: 320px;
     }
 }
@@ -3188,16 +3250,16 @@ content (after 1200px)
 ------------------------------ */
 @media (max-width: 1200px) {
     /* line 1030, ../scss/_content.scss */
-    .art-banner .art-banner-overlay .art-banner-photo {
+    .jerum-banner .jerum-banner-overlay .jerum-banner-photo {
         display: none;
     }
 
     /* line 1038, ../scss/_content.scss */
-    .art-grid.art-grid-2-col .art-grid-item {
+    .jerum-grid.jerum-grid-2-col .jerum-grid-item {
         width: 50%;
     }
     /* line 1044, ../scss/_content.scss */
-    .art-grid.art-grid-3-col .art-grid-item {
+    .jerum-grid.jerum-grid-3-col .jerum-grid-item {
         width: 50%;
     }
 }
@@ -3208,20 +3270,23 @@ content (after 920px)
 ------------------------------ */
 @media (max-width: 920px) {
     /* line 1057, ../scss/_content.scss */
-    .art-banner .art-banner-overlay {
+    .jerum-banner .jerum-banner-overlay {
         padding: 60px 30px;
     }
     /* line 1060, ../scss/_content.scss */
-    .art-banner .art-banner-overlay .art-banner-title {
+    .jerum-banner .jerum-banner-overlay .jerum-banner-title {
         text-align: center;
     }
     /* line 1063, ../scss/_content.scss */
-    .art-banner .art-banner-overlay .art-banner-title h1 {
+    .jerum-banner .jerum-banner-overlay .jerum-banner-title h1 {
         color: #fafafc;
         font-size: 46px;
     }
     /* line 1068, ../scss/_content.scss */
-    .art-banner .art-banner-overlay .art-banner-title .art-buttons-frame {
+    .jerum-banner
+        .jerum-banner-overlay
+        .jerum-banner-title
+        .jerum-buttons-frame {
         text-align: center;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -3234,27 +3299,31 @@ content (after 920px)
         flex-direction: column;
     }
     /* line 1074, ../scss/_content.scss */
-    .art-banner .art-banner-overlay .art-banner-title .art-buttons-frame a {
+    .jerum-banner
+        .jerum-banner-overlay
+        .jerum-banner-title
+        .jerum-buttons-frame
+        a {
         max-width: 200px;
         margin: 0 auto;
     }
     /* line 1078, ../scss/_content.scss */
-    .art-banner
-        .art-banner-overlay
-        .art-banner-title
-        .art-buttons-frame
+    .jerum-banner
+        .jerum-banner-overlay
+        .jerum-banner-title
+        .jerum-buttons-frame
         a:first-child {
         margin-bottom: 15px;
     }
 
     /* line 1087, ../scss/_content.scss */
-    .art-code {
+    .jerum-code {
         min-height: 70px;
         margin-bottom: 0;
     }
 
     /* line 1093, ../scss/_content.scss */
-    .art-timeline .art-timeline-content {
+    .jerum-timeline .jerum-timeline-content {
         margin-right: 30px;
     }
 
@@ -3284,29 +3353,29 @@ content (after 768px)
 ------------------------------ */
 @media (max-width: 768px) {
     /* line 1120, ../scss/_content.scss */
-    .art-section-title {
+    .jerum-section-title {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
     }
     /* line 1123, ../scss/_content.scss */
-    .art-section-title .art-right-frame {
+    .jerum-section-title .jerum-right-frame {
         margin-left: auto;
         margin-right: auto;
     }
 
     /* line 1131, ../scss/_content.scss */
-    .art-grid.art-grid-2-col .art-grid-item {
+    .jerum-grid.jerum-grid-2-col .jerum-grid-item {
         width: 100%;
     }
     /* line 1137, ../scss/_content.scss */
-    .art-grid.art-grid-3-col .art-grid-item {
+    .jerum-grid.jerum-grid-3-col .jerum-grid-item {
         width: 100%;
     }
 
     /* line 1143, ../scss/_content.scss */
-    .art-filter {
+    .jerum-filter {
         text-align: center;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -3317,12 +3386,12 @@ content (after 768px)
         flex-direction: column;
     }
     /* line 1148, ../scss/_content.scss */
-    .art-filter a {
+    .jerum-filter a {
         margin: 0 0 10px;
     }
 
     /* line 1153, ../scss/_content.scss */
-    .art-m-hidden {
+    .jerum-m-hidden {
         display: none;
     }
 }
@@ -3333,24 +3402,24 @@ content (after 500px)
 ------------------------------ */
 @media (max-width: 500px) {
     /* line 1163, ../scss/_content.scss */
-    .art-section-title {
+    .jerum-section-title {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
     }
     /* line 1166, ../scss/_content.scss */
-    .art-section-title .art-right-frame {
+    .jerum-section-title .jerum-right-frame {
         margin-left: auto;
         margin-right: auto;
     }
 
     /* line 1174, ../scss/_content.scss */
-    .art-grid.art-grid-2-col .art-grid-item {
+    .jerum-grid.jerum-grid-2-col .jerum-grid-item {
         width: 100%;
     }
     /* line 1180, ../scss/_content.scss */
-    .art-grid.art-grid-3-col .art-grid-item {
+    .jerum-grid.jerum-grid-3-col .jerum-grid-item {
         width: 100%;
     }
 }
@@ -3360,7 +3429,7 @@ burger button
 
 ------------------------------ */
 /* line 6, ../scss/_burger.scss */
-.art-menu-bar-btn {
+.jerum-menu-bar-btn {
     margin-top: -10px;
     display: inline-block;
     width: 15px;
@@ -3369,7 +3438,7 @@ burger button
     cursor: pointer;
 }
 
-.art-menu-bar-btn-p {
+.jerum-menu-bar-btn-p {
     font-size: 15px;
     top: 10px;
     color: #9bff88;
@@ -3378,9 +3447,9 @@ burger button
 }
 
 /* line 14, ../scss/_burger.scss */
-.art-menu-bar-btn span,
-.art-menu-bar-btn span:after,
-.art-menu-bar-btn span:before {
+.jerum-menu-bar-btn span,
+.jerum-menu-bar-btn span:after,
+.jerum-menu-bar-btn span:before {
     content: "";
     display: block;
     width: 25px;
@@ -3393,47 +3462,47 @@ burger button
     backface-visibility: hidden;
 }
 /* line 27, ../scss/_burger.scss */
-.art-menu-bar-btn span {
+.jerum-menu-bar-btn span {
     position: relative;
     margin: 5px 0 0;
 }
 /* line 31, ../scss/_burger.scss */
-.art-menu-bar-btn span:after,
-.art-menu-bar-btn span:before {
+.jerum-menu-bar-btn span:after,
+.jerum-menu-bar-btn span:before {
     position: absolute;
 }
 /* line 36, ../scss/_burger.scss */
-.art-menu-bar-btn span:before {
+.jerum-menu-bar-btn span:before {
     top: -5px;
 }
 /* line 40, ../scss/_burger.scss */
-.art-menu-bar-btn span:after {
+.jerum-menu-bar-btn span:after {
     top: 5px;
 }
 /* line 46, ../scss/_burger.scss */
-.art-menu-bar-btn.art-active span {
+.jerum-menu-bar-btn.jerum-active span {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 /* line 48, ../scss/_burger.scss */
-.art-menu-bar-btn.art-active span:before {
+.jerum-menu-bar-btn.jerum-active span:before {
     -webkit-transform: translate(0px, 5px) rotate(-90deg);
     transform: translate(0px, 5px) rotate(-90deg);
 }
 /* line 51, ../scss/_burger.scss */
-.art-menu-bar-btn.art-active span:after {
+.jerum-menu-bar-btn.jerum-active span:after {
     -webkit-transform: translate(0px, -5px) rotate(-90deg);
     transform: translate(0px, -5px) rotate(-90deg);
 }
 /* line 57, ../scss/_burger.scss */
-.art-menu-bar-btn:hover span,
-.art-menu-bar-btn:hover span:after,
-.art-menu-bar-btn:hover span:before,
-.art-menu-bar-btn:hover .art-menu-bar-btn-p {
+.jerum-menu-bar-btn:hover span,
+.jerum-menu-bar-btn:hover span:after,
+.jerum-menu-bar-btn:hover span:before,
+.jerum-menu-bar-btn:hover .jerum-menu-bar-btn-p {
     background: #fafafc;
 }
 
-.art-menu-bar-btn:hover .art-menu-bar-btn-p {
+.jerum-menu-bar-btn:hover .jerum-menu-bar-btn-p {
     color: #fafafc;
 }
 
@@ -3443,7 +3512,7 @@ transitions
 
 ------------------------------ */
 /* line 6, ../scss/_transitions.scss */
-.art-a {
+.jerum-a {
     -webkit-transition: 0.55s ease-in-out;
     transition: 0.55s ease-in-out;
 }
@@ -3456,13 +3525,13 @@ transitions
     opacity: 1;
 }
 /* line 14, ../scss/_transitions.scss */
-.transition-fade .art-a {
+.transition-fade .jerum-a {
     -webkit-transform: scale(1);
     transform: scale(1);
     opacity: 1;
 }
 /* line 20, ../scss/_transitions.scss */
-.transition-fade .art-price.art-popular-price {
+.transition-fade .jerum-price.jerum-popular-price {
     -webkit-transform: scale(1.03);
     transform: scale(1.03);
 }
@@ -3473,15 +3542,15 @@ html.is-animating .transition-fade {
     opacity: 0;
 }
 /* line 29, ../scss/_transitions.scss */
-html.is-animating .transition-fade .art-a {
+html.is-animating .transition-fade .jerum-a {
     -webkit-transform: scale(0.93);
     transform: scale(0.93);
     opacity: 0;
 }
 
 /* line 36, ../scss/_transitions.scss */
-html.is-animating .art-a,
-html.is-animating .art-current-page {
+html.is-animating .jerum-a,
+html.is-animating .jerum-current-page {
     opacity: 0;
 }
 
@@ -3519,7 +3588,7 @@ html.is-animating .fade-left {
 
 @media (max-width: 920px) {
     /* line 65, ../scss/_transitions.scss */
-    .transition-fade .art-price.art-popular-price {
+    .transition-fade .jerum-price.jerum-popular-price {
         -webkit-transform: scale(1);
         transform: scale(1);
     }

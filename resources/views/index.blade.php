@@ -5,14 +5,14 @@ Home - Jerum Galang
 @endsection
 
 @section("content")
-<div class="art-content">
+<div class="jerum-content">
   <!-- curtain -->
-  <div class="art-curtain"></div>
+  <div class="jerum-curtain"></div>
 
   <!-- top background -->
-  <div class="art-top-bg" style="background-image: url(img/bg.jpg)">
+  <div class="jerum-top-bg" style="background-image: url(img/bg.jpg)">
     <!-- overlay -->
-    <div class="art-top-bg-overlay"></div>
+    <div class="jerum-top-bg-overlay"></div>
     <!-- overlay end -->
   </div>
   <!-- top background end -->
@@ -20,7 +20,7 @@ Home - Jerum Galang
   <!-- swup container -->
   <div class="transition-fade" id="swup">
     <!-- scroll frame -->
-    <div id="scrollbar" class="art-scroll-frame">
+    <div id="scrollbar" class="jerum-scroll-frame">
       <!-- container -->
       <div class="container-fluid">
         <!-- row -->
@@ -28,19 +28,19 @@ Home - Jerum Galang
           <!-- col -->
           <div class="col-lg-12">
             <!-- banner -->
-            <div class="art-a art-banner" style="background-image: url(img/bg.jpg)">
+            <div class="jerum-a jerum-banner" style="background-image: url(img/bg.jpg)">
               <!-- banner back -->
-              <div class="art-banner-back"></div>
+              <div class="jerum-banner-back"></div>
               <!-- banner dec -->
-              <div class="art-banner-dec"></div>
+              <div class="jerum-banner-dec"></div>
               <!-- banner overlay -->
-              <div class="art-banner-overlay">
+              <div class="jerum-banner-overlay">
                 <!-- main title -->
-                <div class="art-banner-title">
+                <div class="jerum-banner-title">
                   <!-- title -->
                   <h1 class="mb-15">Discover my Amazing Life!</h1>
                   <!-- suptitle -->
-                  <div class="art-lg-text art-code mb-25">
+                  <div class="jerum-lg-text jerum-code mb-25">
                     &lt;<i>code</i>&gt; I build
                     <span
                       class="txt-rotate"
@@ -49,16 +49,16 @@ Home - Jerum Galang
                     ></span
                     >&lt;/<i>code</i>&gt;
                   </div>
-                  <div class="art-buttons-frame">
+                  <div class="jerum-buttons-frame">
                     <!-- button -->
-                    <a href="projects.php" class="art-btn art-btn-md"
+                    <a href="projects.php" class="jerum-btn jerum-btn-md"
                       ><span>Explore now</span></a
                     >
                   </div>
                 </div>
                 <!-- main title end -->
                 <!-- photo -->
-                <!-- <img src="img/a2.png" class="art-banner-photo" alt="Your Name" /> -->
+                <!-- <img src="img/a2.png" class="jerum-banner-photo" alt="Your Name" /> -->
               </div>
               <!-- banner overlay end -->
             </div>
@@ -77,12 +77,12 @@ Home - Jerum Galang
           <!-- col -->
           <div class="col-md-4 col-6">
             <!-- couner frame -->
-            <div class="art-counter-frame">
+            <div class="jerum-counter-frame">
               <!-- counter -->
-              <div class="art-counter-box">
+              <div class="jerum-counter-box">
                 <!-- counter number -->
 
-                <span class="art-counter">10</span><span class="art-counter-plus">+</span>
+                <span class="jerum-counter">10</span><span class="jerum-counter-plus">+</span>
               </div>
               <!-- counter end -->
               <!-- title -->
@@ -95,11 +95,11 @@ Home - Jerum Galang
           <!-- col -->
           <div class="col-md-4 col-6">
             <!-- couner frame -->
-            <div class="art-counter-frame">
+            <div class="jerum-counter-frame">
               <!-- counter -->
-              <div class="art-counter-box">
+              <div class="jerum-counter-box">
                 <!-- counter number -->
-                <span class="art-counter">20</span><span class="art-counter-plus">+</span>
+                <span class="jerum-counter">20</span><span class="jerum-counter-plus">+</span>
               </div>
               <!-- counter end -->
               <!-- title -->
@@ -112,11 +112,11 @@ Home - Jerum Galang
           <!-- col -->
           <div class="col-md-4 col-6">
             <!-- couner frame -->
-            <div class="art-counter-frame">
+            <div class="jerum-counter-frame">
               <!-- counter -->
-              <div class="art-counter-box">
+              <div class="jerum-counter-box">
                 <!-- counter number -->
-                <span class="art-counter">10</span><span class="art-counter-plus">+</span>
+                <span class="jerum-counter">10</span><span class="jerum-counter-plus">+</span>
               </div>
               <!-- counter end -->
               <!-- title -->
@@ -137,9 +137,9 @@ Home - Jerum Galang
           <!-- col -->
           <div class="col-lg-12">
             <!-- section title -->
-            <div class="art-section-title">
+            <div class="jerum-section-title">
               <!-- title frame -->
-              <div class="art-title-frame">
+              <div class="jerum-title-frame">
                 <!-- title -->
                 <h3>My Services</h3>
               </div>
@@ -152,14 +152,14 @@ Home - Jerum Galang
           <!-- col -->
           <div class="col-lg-4 col-md-6">
             <!-- service -->
-            <div class="art-a art-service-icon-box" style="height: 530px">
+            <div class="jerum-a jerum-service-icon-box" style="height: 530px">
               <img
                 src="img/icons/043-analytics.png"
                 alt=""
                 style="max-width: 80px; height: 80px"
               />
               <!-- service content -->
-              <div class="art-service-ib-content">
+              <div class="jerum-service-ib-content">
                 <!-- title -->
                 <h5 class="mb-15">Website & Web Applications</h5>
                 <!-- text -->
@@ -173,8 +173,8 @@ Home - Jerum Galang
                   </ol>
                 </div>
                 <!-- button -->
-                <div class="art-buttons-frame">
-                  <a href="contact.php" class="art-link art-color-link art-w-chevron"
+                <div class="jerum-buttons-frame">
+                  <a href="contact.php" class="jerum-link jerum-color-link jerum-w-chevron"
                     >Contact now</a
                   >
                 </div>
@@ -188,14 +188,14 @@ Home - Jerum Galang
           <!-- col -->
           <div class="col-lg-4 col-md-6">
             <!-- service -->
-            <div class="art-a art-service-icon-box" style="height: 530px">
+            <div class="jerum-a jerum-service-icon-box" style="height: 530px">
               <img
                 src="img/icons/mobile.png"
                 alt=""
                 style="max-width: 80px; height: 80px"
               />
               <!-- service content -->
-              <div class="art-service-ib-content">
+              <div class="jerum-service-ib-content">
                 <!-- title -->
                 <h5 class="mb-15">Mobile Applications</h5>
                 <!-- text -->
@@ -209,8 +209,8 @@ Home - Jerum Galang
                   </ol>
                 </div>
                 <!-- button -->
-                <div class="art-buttons-frame">
-                  <a href="contact.php" class="art-link art-color-link art-w-chevron"
+                <div class="jerum-buttons-frame">
+                  <a href="contact.php" class="jerum-link jerum-color-link jerum-w-chevron"
                     >Contact now</a
                   >
                 </div>
@@ -224,14 +224,14 @@ Home - Jerum Galang
           <!-- col -->
           <div class="col-lg-4 col-md-6">
             <!-- service -->
-            <div class="art-a art-service-icon-box" style="height: 530px">
+            <div class="jerum-a jerum-service-icon-box" style="height: 530px">
               <img
                 src="img/icons/desktop.png"
                 alt=""
                 style="max-width: 80px; height: 80px"
               />
               <!-- service content -->
-              <div class="art-service-ib-content">
+              <div class="jerum-service-ib-content">
                 <!-- title -->
                 <h5 class="mb-15">Desktop Application</h5>
                 <!-- text -->
@@ -245,8 +245,8 @@ Home - Jerum Galang
                   </ol>
                 </div>
                 <!-- button -->
-                <div class="art-buttons-frame">
-                  <a href="contact.php" class="art-link art-color-link art-w-chevron"
+                <div class="jerum-buttons-frame">
+                  <a href="contact.php" class="jerum-link jerum-color-link jerum-w-chevron"
                     >Contact now</a
                   >
                 </div>
@@ -260,14 +260,14 @@ Home - Jerum Galang
           <!-- col -->
           <div class="col-lg-4 col-md-6">
             <!-- service -->
-            <div class="art-a art-service-icon-box" style="height: 530px">
+            <div class="jerum-a jerum-service-icon-box" style="height: 530px">
               <img
                 src="img/icons/062-code-1.png"
                 alt=""
                 style="max-width: 80px; height: 80px"
               />
               <!-- service content -->
-              <div class="art-service-ib-content">
+              <div class="jerum-service-ib-content">
                 <!-- title -->
                 <h5 class="mb-15">Database Development & Management</h5>
                 <!-- text -->
@@ -281,8 +281,8 @@ Home - Jerum Galang
                   </ol>
                 </div>
                 <!-- button -->
-                <div class="art-buttons-frame">
-                  <a href="contact.php" class="art-link art-color-link art-w-chevron"
+                <div class="jerum-buttons-frame">
+                  <a href="contact.php" class="jerum-link jerum-color-link jerum-w-chevron"
                     >Contact now</a
                   >
                 </div>
@@ -296,14 +296,14 @@ Home - Jerum Galang
           <!-- col -->
           <div class="col-lg-4 col-md-6">
             <!-- service -->
-            <div class="art-a art-service-icon-box" style="height: 530px">
+            <div class="jerum-a jerum-service-icon-box" style="height: 530px">
               <img
                 src="img/icons/training2.png"
                 alt=""
                 style="max-width: 80px; height: 80px"
               />
               <!-- service content -->
-              <div class="art-service-ib-content">
+              <div class="jerum-service-ib-content">
                 <!-- title -->
                 <h5 class="mb-15">Web Development Instructor / Training</h5>
                 <!-- text -->
@@ -317,8 +317,8 @@ Home - Jerum Galang
                   </ol>
                 </div>
                 <!-- button -->
-                <div class="art-buttons-frame">
-                  <a href="contact.php" class="art-link art-color-link art-w-chevron"
+                <div class="jerum-buttons-frame">
+                  <a href="contact.php" class="jerum-link jerum-color-link jerum-w-chevron"
                     >Contact now</a
                   >
                 </div>
@@ -332,10 +332,10 @@ Home - Jerum Galang
           <!-- col -->
           <div class="col-lg-4 col-md-6">
             <!-- service -->
-            <div class="art-a art-service-icon-box" style="height: 530px">
+            <div class="jerum-a jerum-service-icon-box" style="height: 530px">
               <img src="img/icons/api.png" alt="" style="max-width: 80px; height: 80px" />
               <!-- service content -->
-              <div class="art-service-ib-content">
+              <div class="jerum-service-ib-content">
                 <!-- title -->
                 <h5 class="mb-15">APIs</h5>
                 <!-- text -->
@@ -349,8 +349,8 @@ Home - Jerum Galang
                   </ol>
                 </div>
                 <!-- button -->
-                <div class="art-buttons-frame">
-                  <a href="contact.php" class="art-link art-color-link art-w-chevron"
+                <div class="jerum-buttons-frame">
+                  <a href="contact.php" class="jerum-link jerum-color-link jerum-w-chevron"
                     >Contact now</a
                   >
                 </div>
@@ -372,9 +372,9 @@ Home - Jerum Galang
           <!-- col -->
           <div class="col-lg-12">
             <!-- section title -->
-            <div class="art-section-title">
+            <div class="jerum-section-title">
               <!-- title frame -->
-              <div class="art-title-frame">
+              <div class="jerum-title-frame">
                 <!-- title -->
                 <h3>Recommendations</h3>
               </div>
@@ -388,7 +388,7 @@ Home - Jerum Galang
           <div class="col-lg-12">
             <!-- slider container -->
             <div
-              class="swiper-container art-testimonial-slider"
+              class="swiper-container jerum-testimonial-slider"
               style="overflow: visible"
             >
               <!-- slider wrapper -->
@@ -396,20 +396,20 @@ Home - Jerum Galang
                 <!-- slide -->
                 <div class="swiper-slide">
                   <!-- testimonial -->
-                  <div class="art-a art-testimonial">
+                  <div class="jerum-a jerum-testimonial">
                     <!-- testimonial body -->
                     <div class="testimonial-body">
                       <!-- photo -->
                       <img
-                        class="art-testimonial-face"
+                        class="jerum-testimonial-face"
                         src="img/testimonials/avatar2.png"
                         alt="face"
                       />
                       <!-- name -->
                       <h5>Dr. Bryan Soberon</h5>
-                      <div class="art-el-suptitle mb-15">CEO - Central Neuro System</div>
+                      <div class="jerum-el-suptitle mb-15">CEO - Central Neuro System</div>
                       <!-- text -->
-                      <div class="mb-15 art-el-message">
+                      <div class="mb-15 jerum-el-message">
                         Working with Jerum has been a pleasure. Better yet - I alerted
                         them of a minor issue before going to sleep. The issue was fixed
                         the next morning. I couldn't ask for better support. Thank you
@@ -418,10 +418,10 @@ Home - Jerum Galang
                     </div>
                     <!-- testimonial body end -->
                     <!-- testimonial footer -->
-                    <div class="art-testimonial-footer">
-                      <div class="art-left-side">
+                    <div class="jerum-testimonial-footer">
+                      <div class="jerum-left-side">
                         <!-- star rate -->
-                        <ul class="art-star-rate">
+                        <ul class="jerum-star-rate">
                           <li><i class="fas fa-star"></i></li>
                           <li><i class="fas fa-star"></i></li>
                           <li><i class="fas fa-star"></i></li>
@@ -430,7 +430,7 @@ Home - Jerum Galang
                         </ul>
                         <!-- star rate end -->
                       </div>
-                      <div class="art-right-side"></div>
+                      <div class="jerum-right-side"></div>
                     </div>
                     <!-- testimonial footer end -->
                   </div>
@@ -441,22 +441,22 @@ Home - Jerum Galang
                 <!-- slide -->
                 <div class="swiper-slide">
                   <!-- testimonial -->
-                  <div class="art-a art-testimonial">
+                  <div class="jerum-a jerum-testimonial">
                     <!-- testimonial body -->
                     <div class="testimonial-body">
                       <!-- photo -->
                       <img
-                        class="art-testimonial-face"
+                        class="jerum-testimonial-face"
                         src="img/testimonials/avatar1.png"
                         alt="face"
                       />
                       <!-- name -->
                       <h5>Ms. Patricia Mariz Antigua</h5>
-                      <div class="art-el-suptitle mb-15">
+                      <div class="jerum-el-suptitle mb-15">
                         CEO - Antigua's Bake & Cuisine
                       </div>
                       <!-- text -->
-                      <div class="mb-15 art-el-message">
+                      <div class="mb-15 jerum-el-message">
                         Working with Jerum has been a pleasure. Better yet - I alerted
                         them of a minor issue before going to sleep. The issue was fixed
                         the next morning. I couldn't ask for better support. Thank you
@@ -465,20 +465,20 @@ Home - Jerum Galang
                     </div>
                     <!-- testimonial body end -->
                     <!-- testimonial footer -->
-                    <div class="art-testimonial-footer">
-                      <div class="art-left-side">
+                    <div class="jerum-testimonial-footer">
+                      <div class="jerum-left-side">
                         <!-- star rate -->
-                        <ul class="art-star-rate">
+                        <ul class="jerum-star-rate">
                           <li><i class="fas fa-star"></i></li>
                           <li><i class="fas fa-star"></i></li>
                           <li><i class="fas fa-star"></i></li>
                           <li><i class="fas fa-star"></i></li>
                           <li><i class="fas fa-star"></i></li>
-                          <!-- <li class="art-empty-item"><i class="fas fa-star"></i></li> -->
+                          <!-- <li class="jerum-empty-item"><i class="fas fa-star"></i></li> -->
                         </ul>
                         <!-- star rate end -->
                       </div>
-                      <div class="art-right-side"></div>
+                      <div class="jerum-right-side"></div>
                     </div>
                     <!-- testimonial footer end -->
                   </div>
@@ -489,22 +489,22 @@ Home - Jerum Galang
                 <!-- slide -->
                 <div class="swiper-slide">
                   <!-- testimonial -->
-                  <div class="art-a art-testimonial">
+                  <div class="jerum-a jerum-testimonial">
                     <!-- testimonial body -->
                     <div class="testimonial-body">
                       <!-- photo -->
                       <img
-                        class="art-testimonial-face"
+                        class="jerum-testimonial-face"
                         src="img/testimonials/avatar2.png"
                         alt="face"
                       />
                       <!-- name -->
                       <h5>Mr. Anthony</h5>
-                      <div class="art-el-suptitle mb-15">
+                      <div class="jerum-el-suptitle mb-15">
                         CEO - Birksdale Shoes Manufacturing
                       </div>
                       <!-- text -->
-                      <div class="mb-15 art-el-message">
+                      <div class="mb-15 jerum-el-message">
                         Working with Jerum has been a pleasure. Better yet - I alerted
                         them of a minor issue before going to sleep. The issue was fixed
                         the next morning. I couldn't ask for better support. Thank you
@@ -513,10 +513,10 @@ Home - Jerum Galang
                     </div>
                     <!-- testimonial body end -->
                     <!-- testimonial footer -->
-                    <div class="art-testimonial-footer">
-                      <div class="art-left-side">
+                    <div class="jerum-testimonial-footer">
+                      <div class="jerum-left-side">
                         <!-- star rate -->
-                        <ul class="art-star-rate">
+                        <ul class="jerum-star-rate">
                           <li><i class="fas fa-star"></i></li>
                           <li><i class="fas fa-star"></i></li>
                           <li><i class="fas fa-star"></i></li>
@@ -525,7 +525,7 @@ Home - Jerum Galang
                         </ul>
                         <!-- star rate end -->
                       </div>
-                      <div class="art-right-side"></div>
+                      <div class="jerum-right-side"></div>
                     </div>
                     <!-- testimonial footer end -->
                   </div>
@@ -536,22 +536,22 @@ Home - Jerum Galang
                 <!-- slide -->
                 <div class="swiper-slide">
                   <!-- testimonial -->
-                  <div class="art-a art-testimonial">
+                  <div class="jerum-a jerum-testimonial">
                     <!-- testimonial body -->
                     <div class="testimonial-body">
                       <!-- photo -->
                       <img
-                        class="art-testimonial-face"
+                        class="jerum-testimonial-face"
                         src="img/testimonials/avatar2.png"
                         alt="face"
                       />
                       <!-- name -->
                       <h5>Mr. Enrico Ponce</h5>
-                      <div class="art-el-suptitle mb-15">
+                      <div class="jerum-el-suptitle mb-15">
                         Sales Head - Fairy Skin Beauty Products
                       </div>
                       <!-- text -->
-                      <div class="mb-15 art-el-message">
+                      <div class="mb-15 jerum-el-message">
                         Working with Jerum has been a pleasure. Better yet - I alerted
                         them of a minor issue before going to sleep. The issue was fixed
                         the next morning. I couldn't ask for better support. Thank you
@@ -560,10 +560,10 @@ Home - Jerum Galang
                     </div>
                     <!-- testimonial body end -->
                     <!-- testimonial footer -->
-                    <div class="art-testimonial-footer">
-                      <div class="art-left-side">
+                    <div class="jerum-testimonial-footer">
+                      <div class="jerum-left-side">
                         <!-- star rate -->
-                        <ul class="art-star-rate">
+                        <ul class="jerum-star-rate">
                           <li><i class="fas fa-star"></i></li>
                           <li><i class="fas fa-star"></i></li>
                           <li><i class="fas fa-star"></i></li>
@@ -572,7 +572,7 @@ Home - Jerum Galang
                         </ul>
                         <!-- star rate end -->
                       </div>
-                      <div class="art-right-side"></div>
+                      <div class="jerum-right-side"></div>
                     </div>
                     <!-- testimonial footer end -->
                   </div>
@@ -589,24 +589,24 @@ Home - Jerum Galang
           <!-- col -->
           <div class="col-lg-12">
             <!-- slider navigation -->
-            <div class="art-slider-navigation">
+            <div class="jerum-slider-navigation">
               <!-- left side -->
-              <div class="art-sn-left">
+              <div class="jerum-sn-left">
                 <!-- slider pagination -->
                 <div class="swiper-pagination"></div>
               </div>
               <!-- left side end -->
 
               <!-- right side -->
-              <div class="art-sn-right">
+              <div class="jerum-sn-right">
                 <!-- slider navigation -->
-                <div class="art-slider-nav-frame">
+                <div class="jerum-slider-nav-frame">
                   <!-- prev -->
-                  <div class="art-slider-nav art-testi-swiper-prev">
+                  <div class="jerum-slider-nav jerum-testi-swiper-prev">
                     <i class="fas fa-chevron-left"></i>
                   </div>
                   <!-- next -->
-                  <div class="art-slider-nav art-testi-swiper-next">
+                  <div class="jerum-slider-nav jerum-testi-swiper-next">
                     <i class="fas fa-chevron-right"></i>
                   </div>
                 </div>

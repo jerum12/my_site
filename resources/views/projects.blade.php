@@ -6,14 +6,14 @@ Projects - Jerum Galang
 
 
 @section("content")
-<div class="art-content">
+<div class="jerum-content">
   <!-- curtain -->
-  <div class="art-curtain"></div>
+  <div class="jerum-curtain"></div>
 
   <!-- top background -->
-  <div class="art-top-bg" style="background-image: url(img/bg.jpg)">
+  <div class="jerum-top-bg" style="background-image: url(img/bg.jpg)">
     <!-- overlay -->
-    <div class="art-top-bg-overlay"></div>
+    <div class="jerum-top-bg-overlay"></div>
     <!-- overlay end -->
   </div>
   <!-- top background end -->
@@ -21,16 +21,16 @@ Projects - Jerum Galang
   <!-- swup container -->
   <div class="transition-fade" id="swup">
     <!-- scroll frame -->
-    <div id="scrollbar" class="art-scroll-frame">
+    <div id="scrollbar" class="jerum-scroll-frame">
       <!-- container -->
       <div class="container-fluid">
         <!-- row -->
         <div class="row p-30-0">
           <div class="col-lg-12">
             <!-- section title -->
-            <div class="art-section-title">
+            <div class="jerum-section-title">
               <!-- title frame -->
-              <div class="art-title-frame">
+              <div class="jerum-title-frame">
                 <!-- title -->
                 <h3>Projects</h3>
               </div>
@@ -42,12 +42,12 @@ Projects - Jerum Galang
           <!-- col -->
           <div class="col-lg-12">
             <!-- filter -->
-            <div class="art-filter mb-30">
+            <div class="jerum-filter mb-30">
               <!-- filter link -->
               <a
                 href="#"
                 data-filter="*"
-                class="art-link art-current"
+                class="jerum-link jerum-current"
                 style="position: relative"
                 >All Categories</a
               >
@@ -55,7 +55,7 @@ Projects - Jerum Galang
               <a
                 href="#"
                 data-filter=".website"
-                class="art-link"
+                class="jerum-link"
                 style="position: relative"
                 >Websites</a
               >
@@ -63,7 +63,7 @@ Projects - Jerum Galang
               <a
                 href="#"
                 data-filter=".webApp"
-                class="art-link"
+                class="jerum-link"
                 style="position: relative"
                 >Web App</a
               >
@@ -71,7 +71,7 @@ Projects - Jerum Galang
               <a
                 href="#"
                 data-filter=".mobile"
-                class="art-link"
+                class="jerum-link"
                 style="position: relative"
                 >Mobile</a
               >
@@ -79,7 +79,7 @@ Projects - Jerum Galang
               <a
                 href="#"
                 data-filter=".desktop"
-                class="art-link"
+                class="jerum-link"
                 style="position: relative"
                 >Desktop</a
               >
@@ -88,30 +88,30 @@ Projects - Jerum Galang
           </div>
           <!-- col end -->
 
-          <div class="art-grid art-grid-3-col art-gallery">
+          <div class="jerum-grid jerum-grid-3-col jerum-gallery">
             <!-- grid item -->
-            <div class="art-grid-item webApp">
+            <div class="jerum-grid-item webApp">
               <!-- grid item frame -->
               <a
                 data-fancybox="gallery"
                 data-no-swup
-                href="img/projects/Fairyskin.png"
-                class="art-a art-portfolio-item-frame art-horizontal"
+                href="img/projects/fs.png"
+                class="jerum-a jerum-portfolio-item-frame jerum-horizontal"
               >
                 <!-- img -->
-                <img src="img/projects/Fairyskin.png" alt="item" />
+                <img src="img/projects/fs.png" alt="item" />
                 <!-- zoom icon -->
-                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                <span class="jerum-item-hover"><i class="fas fa-expand"></i></span>
               </a>
               <!-- grid item frame end -->
               <!-- description -->
-              <div class="art-item-description">
+              <div class="jerum-item-description">
                 <!-- title -->
                 <h5 class="mb-15">Inventory & Sales Management</h5>
                 <!-- button -->
                 <!-- <a
                   href="portfolio-single.html"
-                  class="art-link art-color-link art-w-chevron"
+                  class="jerum-link jerum-color-link jerum-w-chevron"
                   >See more</a
                 > -->
               </div>
@@ -120,22 +120,22 @@ Projects - Jerum Galang
             <!-- grid item end -->
 
             <!-- grid item -->
-            <div class="art-grid-item website">
+            <div class="jerum-grid-item website">
               <!-- grid item frame -->
               <a
                 data-fancybox="gallery"
                 data-no-swup
                 href="img/projects/ABC.png"
-                class="art-a art-portfolio-item-frame art-vertical"
+                class="jerum-a jerum-portfolio-item-frame jerum-vertical"
               >
                 <!-- img -->
                 <img src="img/projects/ABC.png" alt="item" />
                 <!-- zoom icon -->
-                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                <span class="jerum-item-hover"><i class="fas fa-expand"></i></span>
               </a>
               <!-- grid item frame end -->
               <!-- description -->
-              <div class="art-item-description">
+              <div class="jerum-item-description">
                 <!-- title -->
                 <h5 class="mb-15">Website</h5>
                 <!-- <div class="mb-15">
@@ -144,7 +144,7 @@ Projects - Jerum Galang
                 <!-- button -->
                 <!-- <a
                   href="portfolio-single.html"
-                  class="art-link art-color-link art-w-chevron"
+                  class="jerum-link jerum-color-link jerum-w-chevron"
                   >See more</a
                 > -->
               </div>
@@ -153,22 +153,22 @@ Projects - Jerum Galang
             <!-- grid item end -->
 
             <!-- grid item -->
-            <div class="art-grid-item desktop">
+            <div class="jerum-grid-item desktop">
               <!-- grid item frame -->
               <a
                 data-fancybox="gallery"
                 data-no-swup
                 href="img/projects/rlb.png"
-                class="art-a art-portfolio-item-frame art-square"
+                class="jerum-a jerum-portfolio-item-frame jerum-square"
               >
                 <!-- img -->
                 <img src="img/projects/rlb.png" alt="item" />
                 <!-- zoom icon -->
-                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                <span class="jerum-item-hover"><i class="fas fa-expand"></i></span>
               </a>
               <!-- grid item frame end -->
               <!-- description -->
-              <div class="art-item-description">
+              <div class="jerum-item-description">
                 <!-- title -->
                 <h5 class="mb-15">Biometrics</h5>
                 <!-- <div class="mb-15">
@@ -177,7 +177,7 @@ Projects - Jerum Galang
                 <!-- button -->
                 <!-- <a
                   href="portfolio-single.html"
-                  class="art-link art-color-link art-w-chevron"
+                  class="jerum-link jerum-color-link jerum-w-chevron"
                   >See more</a
                 > -->
               </div>
@@ -186,22 +186,22 @@ Projects - Jerum Galang
             <!-- grid item end -->
 
             <!-- grid item -->
-            <div class="art-grid-item website">
+            <div class="jerum-grid-item website">
               <!-- grid item frame -->
               <a
                 data-fancybox="gallery"
                 data-no-swup
                 href="img/projects/A1.png"
-                class="art-a art-portfolio-item-frame art-vertical"
+                class="jerum-a jerum-portfolio-item-frame jerum-vertical"
               >
                 <!-- img -->
                 <img src="img/projects/A1.png" alt="item" />
                 <!-- zoom icon -->
-                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                <span class="jerum-item-hover"><i class="fas fa-expand"></i></span>
               </a>
               <!-- grid item frame end -->
               <!-- description -->
-              <div class="art-item-description">
+              <div class="jerum-item-description">
                 <!-- title -->
                 <h5 class="mb-15">Website</h5>
                 <!-- <div class="mb-15">
@@ -210,7 +210,7 @@ Projects - Jerum Galang
                 <!-- button -->
                 <!-- <a
                   href="portfolio-single.html"
-                  class="art-link art-color-link art-w-chevron"
+                  class="jerum-link jerum-color-link jerum-w-chevron"
                   >See more</a
                 > -->
               </div>
@@ -219,22 +219,22 @@ Projects - Jerum Galang
             <!-- grid item end -->
 
             <!-- grid item -->
-            <div class="art-grid-item webApp">
+            <div class="jerum-grid-item webApp">
               <!-- grid item frame -->
               <a
                 data-fancybox="gallery"
                 data-no-swup
                 href="img/projects/BDAccounting.png"
-                class="art-a art-portfolio-item-frame art-square"
+                class="jerum-a jerum-portfolio-item-frame jerum-square"
               >
                 <!-- img -->
                 <img src="img/projects/BDAccounting.png" alt="item" />
                 <!-- zoom icon -->
-                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                <span class="jerum-item-hover"><i class="fas fa-expand"></i></span>
               </a>
               <!-- grid item frame end -->
               <!-- description -->
-              <div class="art-item-description">
+              <div class="jerum-item-description">
                 <!-- title -->
                 <h5 class="mb-15">Account & Invoicing System</h5>
                 <!-- <div class="mb-15">
@@ -243,7 +243,7 @@ Projects - Jerum Galang
                 <!-- button -->
                 <!-- <a
                   href="portfolio-single.html"
-                  class="art-link art-color-link art-w-chevron"
+                  class="jerum-link jerum-color-link jerum-w-chevron"
                   >See more</a
                 > -->
               </div>
@@ -252,22 +252,22 @@ Projects - Jerum Galang
             <!-- grid item end -->
 
             <!-- grid item -->
-            <div class="art-grid-item website">
+            <div class="jerum-grid-item website">
               <!-- grid item frame -->
               <a
                 data-fancybox="gallery"
                 data-no-swup
                 href="img/projects/CNS.png"
-                class="art-a art-portfolio-item-frame art-vertical"
+                class="jerum-a jerum-portfolio-item-frame jerum-vertical"
               >
                 <!-- img -->
                 <img src="img/projects/CNS.png" alt="item" />
                 <!-- zoom icon -->
-                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                <span class="jerum-item-hover"><i class="fas fa-expand"></i></span>
               </a>
               <!-- grid item frame end -->
               <!-- description -->
-              <div class="art-item-description">
+              <div class="jerum-item-description">
                 <!-- title -->
                 <h5 class="mb-15">Website</h5>
                 <!-- <div class="mb-15">
@@ -276,7 +276,7 @@ Projects - Jerum Galang
                 <!-- button -->
                 <!-- <a
                   href="portfolio-single.html"
-                  class="art-link art-color-link art-w-chevron"
+                  class="jerum-link jerum-color-link jerum-w-chevron"
                   >See more</a
                 > -->
               </div>
@@ -285,22 +285,22 @@ Projects - Jerum Galang
             <!-- grid item end -->
 
             <!-- grid item -->
-            <div class="art-grid-item webApp">
+            <div class="jerum-grid-item webApp">
               <!-- grid item frame -->
               <a
                 data-fancybox="gallery"
                 data-no-swup
                 href="img/projects/A1Admin.png"
-                class="art-a art-portfolio-item-frame art-square"
+                class="jerum-a jerum-portfolio-item-frame jerum-square"
               >
                 <!-- img -->
                 <img src="img/projects/A1Admin.png" alt="item" />
                 <!-- zoom icon -->
-                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                <span class="jerum-item-hover"><i class="fas fa-expand"></i></span>
               </a>
               <!-- grid item frame end -->
               <!-- description -->
-              <div class="art-item-description">
+              <div class="jerum-item-description">
                 <!-- title -->
                 <h5 class="mb-15">Booking App Admin</h5>
                 <!-- <div class="mb-15">
@@ -309,7 +309,7 @@ Projects - Jerum Galang
                 <!-- button -->
                 <!-- <a
                   href="portfolio-single.html"
-                  class="art-link art-color-link art-w-chevron"
+                  class="jerum-link jerum-color-link jerum-w-chevron"
                   >See more</a
                 > -->
               </div>
@@ -318,28 +318,28 @@ Projects - Jerum Galang
             <!-- grid item end -->
 
             <!-- grid item -->
-            <div class="art-grid-item webApp">
+            <div class="jerum-grid-item webApp">
               <!-- grid item frame -->
               <a
                 data-fancybox="gallery"
                 data-no-swup
                 href="img/projects/Birksdale.png"
-                class="art-a art-portfolio-item-frame art-horizontal"
+                class="jerum-a jerum-portfolio-item-frame jerum-horizontal"
               >
                 <!-- img -->
                 <img src="img/projects/Birksdale.png" alt="item" />
                 <!-- zoom icon -->
-                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                <span class="jerum-item-hover"><i class="fas fa-expand"></i></span>
               </a>
               <!-- grid item frame end -->
               <!-- description -->
-              <div class="art-item-description">
+              <div class="jerum-item-description">
                 <!-- title -->
                 <h5 class="mb-15">Inventory System</h5>
                 <!-- button -->
                 <!-- <a
                   href="portfolio-single.html"
-                  class="art-link art-color-link art-w-chevron"
+                  class="jerum-link jerum-color-link jerum-w-chevron"
                   >See more</a
                 > -->
               </div>
@@ -348,28 +348,28 @@ Projects - Jerum Galang
             <!-- grid item end -->
 
             <!-- grid item -->
-            <div class="art-grid-item mobile">
+            <div class="jerum-grid-item mobile">
               <!-- grid item frame -->
               <a
                 data-fancybox="gallery"
                 data-no-swup
                 href="img/projects/OR.png"
-                class="art-a art-portfolio-item-frame art-horizontal"
+                class="jerum-a jerum-portfolio-item-frame jerum-horizontal"
               >
                 <!-- img -->
                 <img src="img/projects/OR.png" alt="item" />
                 <!-- zoom icon -->
-                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                <span class="jerum-item-hover"><i class="fas fa-expand"></i></span>
               </a>
               <!-- grid item frame end -->
               <!-- description -->
-              <div class="art-item-description">
+              <div class="jerum-item-description">
                 <!-- title -->
                 <h5 class="mb-15">Mobile App</h5>
                 <!-- button -->
                 <!-- <a
                   href="portfolio-single.html"
-                  class="art-link art-color-link art-w-chevron"
+                  class="jerum-link jerum-color-link jerum-w-chevron"
                   >See more</a
                 > -->
               </div>
@@ -378,28 +378,28 @@ Projects - Jerum Galang
             <!-- grid item end -->
 
             <!-- grid item -->
-            <div class="art-grid-item webApp">
+            <div class="jerum-grid-item webApp">
               <!-- grid item frame -->
               <a
                 data-fancybox="gallery"
                 data-no-swup
                 href="img/projects/Mariz.png"
-                class="art-a art-portfolio-item-frame art-horizontal"
+                class="jerum-a jerum-portfolio-item-frame jerum-horizontal"
               >
                 <!-- img -->
                 <img src="img/projects/Mariz.png" alt="item" />
                 <!-- zoom icon -->
-                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                <span class="jerum-item-hover"><i class="fas fa-expand"></i></span>
               </a>
               <!-- grid item frame end -->
               <!-- description -->
-              <div class="art-item-description">
+              <div class="jerum-item-description">
                 <!-- title -->
                 <h5 class="mb-15">Inventory System</h5>
                 <!-- button -->
                 <!-- <a
                   href="portfolio-single.html"
-                  class="art-link art-color-link art-w-chevron"
+                  class="jerum-link jerum-color-link jerum-w-chevron"
                   >See more</a
                 > -->
               </div>
@@ -408,28 +408,28 @@ Projects - Jerum Galang
             <!-- grid item end -->
 
             <!-- grid item -->
-            <div class="art-grid-item webApp">
+            <div class="jerum-grid-item webApp">
               <!-- grid item frame -->
               <a
                 data-fancybox="gallery"
                 data-no-swup
                 href="img/projects/RLBAttendance.png"
-                class="art-a art-portfolio-item-frame art-horizontal"
+                class="jerum-a jerum-portfolio-item-frame jerum-horizontal"
               >
                 <!-- img -->
                 <img src="img/projects/RLBAttendance.png" alt="item" />
                 <!-- zoom icon -->
-                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                <span class="jerum-item-hover"><i class="fas fa-expand"></i></span>
               </a>
               <!-- grid item frame end -->
               <!-- description -->
-              <div class="art-item-description">
+              <div class="jerum-item-description">
                 <!-- title -->
                 <h5 class="mb-15">Attendance System</h5>
                 <!-- button -->
                 <!-- <a
                   href="portfolio-single.html"
-                  class="art-link art-color-link art-w-chevron"
+                  class="jerum-link jerum-color-link jerum-w-chevron"
                   >See more</a
                 > -->
               </div>
@@ -447,7 +447,7 @@ Projects - Jerum Galang
         <!-- footer -->
         <footer>
           <!-- copyright -->
-          <div class="art-copy">© 2023 Jerum Galang</div>
+          <div class="jerum-copy">© 2023 Jerum Galang</div>
           <!-- author ( Please! Do not delete it. You are awesome! :) -->
           <!-- <div>
             Template author:&#160;

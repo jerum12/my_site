@@ -6,14 +6,14 @@ About Me - Jerum Galang
 
 
 @section("content")
-<div class="art-content">
+<div class="jerum-content">
   <!-- curtain -->
-  <div class="art-curtain"></div>
+  <div class="jerum-curtain"></div>
 
   <!-- top background -->
-  <div class="art-top-bg" style="background-image: url(img/bg.jpg)">
+  <div class="jerum-top-bg" style="background-image: url(img/bg.jpg)">
     <!-- overlay -->
-    <div class="art-top-bg-overlay"></div>
+    <div class="jerum-top-bg-overlay"></div>
     <!-- overlay end -->
   </div>
   <!-- top background end -->
@@ -21,7 +21,7 @@ About Me - Jerum Galang
   <!-- swup container -->
   <div class="transition-fade" id="swup">
     <!-- scroll frame -->
-    <div id="scrollbar" class="art-scroll-frame">
+    <div id="scrollbar" class="jerum-scroll-frame">
       <!-- container -->
       <div class="container-fluid">
         <!-- row -->
@@ -29,9 +29,9 @@ About Me - Jerum Galang
           <!-- col -->
           <div class="col-lg-6">
             <!-- section title -->
-            <div class="art-section-title">
+            <div class="jerum-section-title">
               <!-- title frame -->
-              <div class="art-title-frame">
+              <div class="jerum-title-frame">
                 <!-- title -->
                 <h3>Work History</h3>
               </div>
@@ -40,26 +40,26 @@ About Me - Jerum Galang
             <!-- section title end -->
 
             <!-- timeline -->
-            <div class="art-timeline">
-              <div class="art-timeline-item">
-                <div class="art-timeline-mark-light"></div>
-                <div class="art-timeline-mark"></div>
+            <div class="jerum-timeline">
+              <div class="jerum-timeline-item">
+                <div class="jerum-timeline-mark-light"></div>
+                <div class="jerum-timeline-mark"></div>
 
-                <div class="art-a art-timeline-content">
-                  <div class="art-card-header">
-                    <div class="art-left-side">
+                <div class="jerum-a jerum-timeline-content">
+                  <div class="jerum-card-header">
+                    <div class="jerum-left-side">
                       <h5>TeraSystem Incorporated</h5>
-                      <div class="art-el-suptitle mb-15">System Engineer</div>
+                      <div class="jerum-el-suptitle mb-15">System Engineer</div>
                     </div>
-                    <div class="art-right-side">
-                      <span class="art-date">2013 - Present</span>
+                    <div class="jerum-right-side">
+                      <span class="jerum-date">2013 - Present</span>
                     </div>
                   </div>
                   <div>
-                    <ul class="art-knowledge-list p-15-0">
+                    <ul class="jerum-knowledge-list p-15-0">
                       <li>
                         Responsible for developing
-                        <span class="art-counter" style="color: #9bff88">6</span>+
+                        <span class="jerum-counter" style="color: #9bff88">6</span>+
                         projects, including front-end as well as back-end transactions.
                       </li>
                       <li>Performed unit testing and implementation.</li>
@@ -74,7 +74,7 @@ About Me - Jerum Galang
 
                     <h5>Projects</h5>
                     <div style="margin-top: 10px">
-                      <ol type="1" class="art-knowledge-list p-15-0">
+                      <ol type="1" class="jerum-knowledge-list p-15-0">
                         <li>Vocalink Reconciliation</li>
                         <li>TG-Shared Encryption Key Web Application</li>
                         <li>Account Management System</li>
@@ -88,20 +88,20 @@ About Me - Jerum Galang
                 </div>
               </div>
 
-              <div class="art-timeline-item">
-                <div class="art-timeline-mark-light"></div>
-                <div class="art-timeline-mark"></div>
+              <div class="jerum-timeline-item">
+                <div class="jerum-timeline-mark-light"></div>
+                <div class="jerum-timeline-mark"></div>
 
-                <div class="art-a art-timeline-content">
-                  <div class="art-card-header">
-                    <div class="art-left-side">
+                <div class="jerum-a jerum-timeline-content">
+                  <div class="jerum-card-header">
+                    <div class="jerum-left-side">
                       <h5>Kodego Philippines</h5>
-                      <div class="art-el-suptitle mb-15">
+                      <div class="jerum-el-suptitle mb-15">
                         Part Time Web Development Instructor
                       </div>
                     </div>
-                    <div class="art-right-side">
-                      <span class="art-date">2022 - 2023</span>
+                    <div class="jerum-right-side">
+                      <span class="jerum-date">2022 - 2023</span>
                     </div>
                   </div>
                   <p>
@@ -116,27 +116,27 @@ About Me - Jerum Galang
                   <!-- <a
                     data-fancybox="recommendation"
                     data-no-swup
-                    href="#art-recomendation-popup-1"
-                    class="art-link art-color-link art-w-chevron"
+                    href="#jerum-recomendation-popup-1"
+                    class="jerum-link jerum-color-link jerum-w-chevron"
                     >Recommendation</a
                   > -->
                 </div>
               </div>
 
-              <div class="art-timeline-item">
-                <div class="art-timeline-mark-light"></div>
-                <div class="art-timeline-mark"></div>
+              <div class="jerum-timeline-item">
+                <div class="jerum-timeline-mark-light"></div>
+                <div class="jerum-timeline-mark"></div>
 
-                <div class="art-a art-timeline-content">
-                  <div class="art-card-header">
-                    <div class="art-left-side">
+                <div class="jerum-a jerum-timeline-content">
+                  <div class="jerum-card-header">
+                    <div class="jerum-left-side">
                       <h5>Ramcap PH</h5>
-                      <div class="art-el-suptitle mb-15">
+                      <div class="jerum-el-suptitle mb-15">
                         Freelance Front End Developer
                       </div>
                     </div>
-                    <div class="art-right-side">
-                      <span class="art-date">2022 - 2022</span>
+                    <div class="jerum-right-side">
+                      <span class="jerum-date">2022 - 2022</span>
                     </div>
                   </div>
                   <p>
@@ -146,29 +146,29 @@ About Me - Jerum Galang
                   <!-- <a
                     data-fancybox="recommendation"
                     data-no-swup
-                    href="#art-recomendation-popup-2"
-                    class="art-link art-color-link art-w-chevron"
+                    href="#jerum-recomendation-popup-2"
+                    class="jerum-link jerum-color-link jerum-w-chevron"
                     >Recommendation</a
                   > -->
                 </div>
               </div>
 
-              <div class="art-timeline-item">
-                <div class="art-timeline-mark-light"></div>
-                <div class="art-timeline-mark"></div>
+              <div class="jerum-timeline-item">
+                <div class="jerum-timeline-mark-light"></div>
+                <div class="jerum-timeline-mark"></div>
 
-                <div class="art-a art-timeline-content">
-                  <div class="art-card-header">
-                    <div class="art-left-side">
+                <div class="jerum-a jerum-timeline-content">
+                  <div class="jerum-card-header">
+                    <div class="jerum-left-side">
                       <h5>Freelance Projects</h5>
-                      <div class="art-el-suptitle mb-15">Developer</div>
+                      <div class="jerum-el-suptitle mb-15">Developer</div>
                     </div>
-                    <div class="art-right-side">
-                      <span class="art-date">2020 - Present</span>
+                    <div class="jerum-right-side">
+                      <span class="jerum-date">2020 - Present</span>
                     </div>
                   </div>
                   <div>
-                    <ul class="art-knowledge-list p-15-0">
+                    <ul class="jerum-knowledge-list p-15-0">
                       <li>Billing & Invoicing System</li>
                       <li>Inventory & Sales Management</li>
                       <li>Websites</li>
@@ -180,8 +180,8 @@ About Me - Jerum Galang
                   <!-- <a
                     data-fancybox="recommendation"
                     data-no-swup
-                    href="#art-recomendation-popup-3"
-                    class="art-link art-color-link art-w-chevron"
+                    href="#jerum-recomendation-popup-3"
+                    class="jerum-link jerum-color-link jerum-w-chevron"
                     >Recommendation</a
                   > -->
                 </div>
@@ -191,9 +191,9 @@ About Me - Jerum Galang
           </div>
           <div class="col-lg-6">
             <!-- section title -->
-            <div class="art-section-title">
+            <div class="jerum-section-title">
               <!-- title frame -->
-              <div class="art-title-frame">
+              <div class="jerum-title-frame">
                 <!-- title -->
                 <h3>Education</h3>
               </div>
@@ -202,19 +202,19 @@ About Me - Jerum Galang
             <!-- section title end -->
 
             <!-- timeline -->
-            <div class="art-timeline art-gallery">
-              <div class="art-timeline-item">
-                <div class="art-timeline-mark-light"></div>
-                <div class="art-timeline-mark"></div>
+            <div class="jerum-timeline jerum-gallery">
+              <div class="jerum-timeline-item">
+                <div class="jerum-timeline-mark-light"></div>
+                <div class="jerum-timeline-mark"></div>
 
-                <div class="art-a art-timeline-content">
-                  <div class="art-card-header">
-                    <div class="art-left-side">
+                <div class="jerum-a jerum-timeline-content">
+                  <div class="jerum-card-header">
+                    <div class="jerum-left-side">
                       <h5>Polytechnic University of the Philippines</h5>
-                      <div class="art-el-suptitle mb-15">BS Computer Engineering</div>
+                      <div class="jerum-el-suptitle mb-15">BS Computer Engineering</div>
                     </div>
-                    <div class="art-right-side">
-                      <span class="art-date">2008 - 2013</span>
+                    <div class="jerum-right-side">
+                      <span class="jerum-date">2008 - 2013</span>
                     </div>
                   </div>
 
@@ -231,24 +231,24 @@ About Me - Jerum Galang
                     data-fancybox="diplome"
                     data-no-swup
                     href="files/certificate.jpg"
-                    class="art-link art-color-link art-w-chevron"
+                    class="jerum-link jerum-color-link jerum-w-chevron"
                     >Diplome</a
                   > -->
                 </div>
               </div>
 
-              <div class="art-timeline-item">
-                <div class="art-timeline-mark-light"></div>
-                <div class="art-timeline-mark"></div>
+              <div class="jerum-timeline-item">
+                <div class="jerum-timeline-mark-light"></div>
+                <div class="jerum-timeline-mark"></div>
 
-                <div class="art-a art-timeline-content">
-                  <div class="art-card-header">
-                    <div class="art-left-side">
+                <div class="jerum-a jerum-timeline-content">
+                  <div class="jerum-card-header">
+                    <div class="jerum-left-side">
                       <h5>Sauyo High School</h5>
-                      <div class="art-el-suptitle mb-15">Student</div>
+                      <div class="jerum-el-suptitle mb-15">Student</div>
                     </div>
-                    <div class="art-right-side">
-                      <span class="art-date">2004 - 2008</span>
+                    <div class="jerum-right-side">
+                      <span class="jerum-date">2004 - 2008</span>
                     </div>
                   </div>
                   <p>
@@ -259,18 +259,18 @@ About Me - Jerum Galang
                 </div>
               </div>
 
-              <div class="art-timeline-item">
-                <div class="art-timeline-mark-light"></div>
-                <div class="art-timeline-mark"></div>
+              <div class="jerum-timeline-item">
+                <div class="jerum-timeline-mark-light"></div>
+                <div class="jerum-timeline-mark"></div>
 
-                <div class="art-a art-timeline-content">
-                  <div class="art-card-header">
-                    <div class="art-left-side">
+                <div class="jerum-a jerum-timeline-content">
+                  <div class="jerum-card-header">
+                    <div class="jerum-left-side">
                       <h5>Sauyo Elementary School</h5>
-                      <div class="art-el-suptitle mb-15">Student</div>
+                      <div class="jerum-el-suptitle mb-15">Student</div>
                     </div>
-                    <div class="art-right-side">
-                      <span class="art-date">1998 - 2004</span>
+                    <div class="jerum-right-side">
+                      <span class="jerum-date">1998 - 2004</span>
                     </div>
                   </div>
                   <p>
@@ -281,7 +281,7 @@ About Me - Jerum Galang
                     data-fancybox="diplome"
                     data-no-swup
                     href="files/certificate.jpg"
-                    class="art-link art-color-link art-w-chevron"
+                    class="jerum-link jerum-color-link jerum-w-chevron"
                     >Licence</a
                   > -->
                 </div>
