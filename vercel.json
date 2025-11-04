@@ -1,4 +1,21 @@
 {
+  "version": 2,
+  "installCommand": "npx npm@8 install --legacy-peer-deps",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "dist" }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
+/*{
     "version": 2,
     "installCommand": "npx npm@8 install --legacy-peer-deps",
     "functions": {
@@ -33,4 +50,4 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "array"
     }
-}
+}*/
