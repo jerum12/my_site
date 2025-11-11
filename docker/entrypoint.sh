@@ -9,6 +9,15 @@ fi
 
 cd /var/www
 
+# If vendor exists but package discovery hasn't run, run it now.
+# Use --ansi and ignore errors to avoid failing container start in odd edge cases.
+if [ -f artisan ] && [ -d vendor ]; then
+  echo "Running artisan package discovery..."
+  php artisan package:discover --ansi || true
+fi
+
+
+
 # If .env does not exist, copy example (avoid committing real secrets; override in Render env)
 if [ ! -f .env ] && [ -f .env.example ]; then
   cp .env.example .env
