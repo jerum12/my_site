@@ -28,9 +28,9 @@ COPY composer.json composer.lock ./
 # Install composer (if you prefer composer:2 image, you can copy the binary instead)
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-# Run composer (add -vvv for debugging)
-# Use unlimited memory just in case
-RUN COMPOSER_MEMORY_LIMIT=-1 composer install --no-dev --optimize-autoloader --prefer-dist --no-interaction -vvv
 
-# Copy the rest of the application files (to keep vendor cached earlier)
+# Run composer without executing scripts (avoids calling artisan which isn't present yet)
+RUN COMPOSER_MEMORY_LIMIT=-1 composer install --no-dev --optimize-autoloader --prefer-dist --no-interaction --no-scripts -vvv
+
+# Copy the rest of the application files
 COPY . .
