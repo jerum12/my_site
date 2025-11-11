@@ -1,72 +1,52 @@
-# Production-ready Dockerfile for Laravel (PHP-FPM). Place at repo root as "Dockerfile".
-# Multi-stage: optional Node build for frontend assets, then PHP-FPM build.
+# Multi-stage Dockerfile: composer build stage -> runtime with php-fpm + nginx
+FROM composer:2 AS vendor
+WORKDIR /app
 
-# ---- Optional node builder stage (only used if you have package.json and need to build assets) ----
-FROM node:16 AS node-builder
-WORKDIR /var/www
+COPY composer.json composer.lock ./
+RUN composer install --no-dev --optimize-autoloader --no-interaction --prefer-dist
 
-# Install deps and build assets
-COPY package*.json ./
-RUN npm ci --silent
+# copy source for build stage so we can preserve vendor in final image quickly if needed
 COPY . .
-# Adjust this to your build command (npm run build, npm run production, etc.):
-RUN if [ -f package.json ]; then npm run build || true; fi
 
-# ---- PHP / Composer stage ----
-FROM php:8.1-fpm
+FROM php:8.1-fpm-bullseye
 
-# Arguments you can override with docker build --build-arg
 ARG user=www-data
 ARG uid=1000
 
-# Install system dependencies
+# Install system packages and nginx (and envsubst via gettext-base)
 RUN apt-get update \
   && apt-get install -y --no-install-recommends \
-    ca-certificates \
-    git \
+    nginx \
+    gettext-base \
+    zip \
     unzip \
+    git \
     libpng-dev \
     libjpeg-dev \
     libonig-dev \
     libzip-dev \
-    zip \
     curl \
+  && docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd zip \
   && rm -rf /var/lib/apt/lists/*
 
-# Install PHP extensions
-RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd zip
-
-# Install composer
-COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
+# Copy application files (including vendor from previous stage)
+COPY --from=vendor /app /var/www
 
 WORKDIR /var/www
 
-# Copy composer files first (for better caching)
-COPY composer.json composer.lock ./
-# Install PHP dependencies (production)
-RUN composer install --no-dev --optimize-autoloader --no-interaction --prefer-dist --no-scripts
+# Ensure storage & cache exist and permissions
+RUN mkdir -p /var/www/storage /var/www/bootstrap/cache \
+  && chown -R ${user}:${user} /var/www/storage /var/www/bootstrap/cache || true \
+  && chmod -R 775 /var/www/storage /var/www/bootstrap/cache || true
 
-# Copy application files
-COPY . .
-
-# If you used the node-builder, copy built assets into public/ (adjust path if your build outputs elsewhere)
-# This will not fail the build if the path doesn't exist (uses a conditional copy via /bin/sh)
-RUN if [ -d /var/www/public/build ]; then cp -a /var/www/public/build /var/www/public/build; fi
-
-# Run composer scripts (if you need them)
-RUN composer dump-autoload --optimize
-
-# Permissions for storage & cache
-RUN chown -R ${user}:${user} /var/www/storage /var/www/bootstrap/cache || true
-RUN chmod -R 775 /var/www/storage /var/www/bootstrap/cache || true
-
-# Copy entrypoint script and make executable
+# Copy nginx config template and entrypoint
+COPY docker/nginx/default.conf.template /etc/nginx/conf.d/default.conf.template
 COPY docker/entrypoint.sh /usr/local/bin/entrypoint.sh
 RUN chmod +x /usr/local/bin/entrypoint.sh
 
-# Expose php-fpm port
-EXPOSE 9000
+# Expose default HTTP port (not strictly required by Render, but helpful)
+EXPOSE 80
 
-# Use the entrypoint to prepare environment then start php-fpm
-ENTRYPOINT ["entrypoint.sh"]
-CMD ["php-fpm"]
+# Entrypoint does substitution then starts php-fpm (background) + nginx (foreground)
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
+CMD ["nginx", "-g", "daemon off;"]
